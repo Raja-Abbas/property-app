@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.Her{
+    background-image: url("./images/hero.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

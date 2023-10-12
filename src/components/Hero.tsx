@@ -1,11 +1,10 @@
 import React from 'react'
-import HeroNav from "./common/Header"
-
+import HeaderNav from "./common/Header"
 
 function Hero() {
   return (
-    <div className='Hero'>
-      <HeroNav/>
+    <div className='Her'>
+      <HeaderNav />
     </div>
   )
 }
