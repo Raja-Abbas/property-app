@@ -7,9 +7,9 @@
 }
 .default{
     background-image: url("./images/hero.svg");
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -65,7 +65,7 @@ line-height: 67.2px;
 }
 
 .grid{
-  margin-top: -100px;
+  margin-top: 50px;
 }
 
 .button-get{
@@ -77,36 +77,94 @@ line-height: 67.2px;
   background-image: url(./images/Frame\ 5.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 256px;
-  height: 256px;
+  min-width: 200px;
+  min-height: 200px;
 }
 
 .background2{
   background-image: url(./images/Frame\ 6.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 256px;
-  height: 256px;
+  min-width: 200px;
+  min-height: 200px;
 }
 .background3{
   background-image: url(./images/Frame\ 7.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 256px;
-  height: 256px;
+  min-width: 200px;
+  min-height: 200px;
 }
 
 .background4{
   background-image: url(./images/Frame\ 7\ \(1\).svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 256px;
-  height: 256px;
+  min-width: 200px;
+  min-height: 200px;
 }
 .background5{
-  background-image: url(./images/Frame\ 8.svg);
+  width: 500px;
+  height: 410px;
+}
+
+.background6{
+  background-image: url(./images/Frame\ 10.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 648px;
-  height: 542px;
+  min-width: 200px;
+  min-height: 200px;
 }
+
+.background7{
+  background-image: url(./images/Frame\ 11.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 200px;
+}
+.background8{
+  background-image: url(./images/Frame\ 12.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.background9{
+  background-image: url(./images/Frame\ 13.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 200px;
+}
+.background5{
+  width: 500px;
+  height: 410px;
+}
+
+.grid-width{
+  width: 90%;
+  margin: auto;
+}
+
+.button-chat{
+  cursor: pointer;
+}
+
+.bg-image{
+  background-image: url(./images/bg-image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 400px;
+}
+
+.bg-imageTwo{
+  background-image: url(./images/bg-imageTwo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 400px;
+}
+
