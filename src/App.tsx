@@ -5,7 +5,7 @@ import Hero from "./components/Hero"
 function App() {
   return (
     <div className="App">
-      <Hero/>
+      <Hero title="Find Your Dream Home" buttonText="Get Started"/>
     </div>
   );
 }
