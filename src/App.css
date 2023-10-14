@@ -151,12 +151,20 @@ line-height: 67.2px;
 .button-chat{
   cursor: pointer;
 }
+.bg{
+  width: 450px;
+  float: left;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .bg-image{
   background-image: url(./images/bg-image.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 550px;
+  width: 450px;
   height: 400px;
 }
 
@@ -164,7 +172,8 @@ line-height: 67.2px;
   background-image: url(./images/bg-imageTwo.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 550px;
+  width: 450px;
   height: 400px;
 }
+
 

@@ -2,12 +2,14 @@ import React from "react";
 import ImageLarge from "../../images/Frame 8.svg";
 import ImageLargeTwo from "../../images/Frame 9.svg";
 import Guides from "./Guides";
+import Video from "./Video";
 
 interface TextSectionProps {
   title: string;
   description: string;
   buttonText: string;
 }
+
 
 function TextSection({ title, description, buttonText }: TextSectionProps) {
   return (
@@ -44,7 +46,7 @@ interface ImageGridSectionProps {
 
 function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
   return (
-    <div className="d-flex justify-content-center m-4 flex">
+    <div className="d-flex justify-content-center m-4">
       <div className="w-100">
         <div className="">
           <div className="d-flex gap-2 flex-wrap">
@@ -83,8 +85,8 @@ function ImagesGrid() {
       {/* Text Section */}
       <TextSection
         title="Specialty Realty Services For Buyers, Sellers, and Investors."
-        description="Your dynamic description here."
-        buttonText="Your dynamic button text"
+        description=""
+        buttonText=""
       />
 
       {/* Second Image Grid Section */}
@@ -106,8 +108,11 @@ function ImagesGrid() {
       />
 
       {/* Guides Components */}
+      <div className="d-flex gap-5 justify-content-around">
       <Guides title="Buyers" subtitle="Buyer’s Guide" bgClass="bg-image" />
       <Guides title="Sellers" subtitle="Seller’s Guide" bgClass="bg-imageTwo" />
+      </div>
+      <Video/>
     </div>
   );
 }
