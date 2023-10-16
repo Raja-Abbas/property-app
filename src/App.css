@@ -177,3 +177,60 @@ line-height: 67.2px;
 }
 
 
+.bg-card-image1{
+  background-image: url(./images/card-image1.svg);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+.bg-card-image2{
+  background-image: url(./images/card-image2.svg);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+.bg-card-image3{
+  background-image: url(./images/card-image3.svg);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
+.width-cards{
+  max-width: 100%;
+}
+
+.card{
+  width: 22rem;
+  height: 100%;
+}
+
+.video{
+  width: 480px;
+}
+
+.gap-image{
+  gap: 60px;
+}
+
+.link{
+  font-size: 14px;
+}
+
+.cardtwo{
+  width: 36rem;
+  height: 100%;
+}
+
+.checkcircle{
+  width: 4rem;
+  margin: auto;
+}
+
+.imagecard{
+  margin-bottom: 50px;
+}
+
+.imagebutton{
+  cursor: pointer;
+}

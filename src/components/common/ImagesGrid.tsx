@@ -3,13 +3,14 @@ import ImageLarge from "../../images/Frame 8.svg";
 import ImageLargeTwo from "../../images/Frame 9.svg";
 import Guides from "./Guides";
 import Video from "./Video";
+import Company from "./Company";
+import ThreeCards from "./ThreeCards";
 
 interface TextSectionProps {
   title: string;
   description: string;
   buttonText: string;
 }
-
 
 function TextSection({ title, description, buttonText }: TextSectionProps) {
   return (
@@ -37,6 +38,17 @@ function TextSection({ title, description, buttonText }: TextSectionProps) {
       </div>
     </div>
   );
+}
+
+interface TextSectionTwoProps{
+  title:string;
+}
+function TextSectionTwo({title}: TextSectionTwoProps){
+  return(
+  <div>
+    <p className="text-center text-dark fs-3 fw-light font-family-Poppins  m-0 px-3 py-2">{title}</p>
+  </div>
+  )
 }
 
 interface ImageGridSectionProps {
@@ -67,7 +79,39 @@ function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
     </div>
   );
 }
+// 
 
+interface ImageGridSectionTwoProps {
+  backgrounds: string[];
+  imageSource: string;
+}
+
+function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionProps) {
+  return (
+    <div className="d-flex justify-content-between m-3 flex-row-reverse gap-image">
+      <div className="w-100 d-flex justify-content-between">
+        <div className="d-flex justify-content-between">
+          <div className="d-flex gap-2 flex-wrap">
+            {backgrounds.map((backgroundClass, index) => (
+              <div
+                key={index}
+                className={`bg-opacity-50 col-5 justify-content-center align-items-center ${backgroundClass}`}
+              >
+                {/* Your content for each grid item */}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="bg-opacity-50">
+        <img src={imageSource} alt="Image" className="background5" />
+      </div>
+    </div>
+  );
+}
+
+
+// 
 function ImagesGrid() {
   return (
     <div>
@@ -83,14 +127,12 @@ function ImagesGrid() {
       />
       
       {/* Text Section */}
-      <TextSection
+      <TextSectionTwo
         title="Specialty Realty Services For Buyers, Sellers, and Investors."
-        description=""
-        buttonText=""
       />
 
       {/* Second Image Grid Section */}
-      <ImageGridSection
+      <ImageGridSectionTwo
         backgrounds={[
           "background6",
           "background7",
@@ -113,6 +155,10 @@ function ImagesGrid() {
       <Guides title="Sellers" subtitle="Seller’s Guide" bgClass="bg-imageTwo" />
       </div>
       <Video/>
+      <div>
+      <Company/>
+      <ThreeCards/>
+      </div>
     </div>
   );
 }

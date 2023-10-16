@@ -31,19 +31,19 @@ function Header() {
   ];
 
   return (
-    <Navbar expand="lg" className="custom-navbar">
-      <Container>
+    <Navbar expand="lg" className="custom-navbar d-flex jutify-content-around align-items-center">
+      <Container className="d-flex align-items-center">
         <img src={hero} alt="jhg" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="custom-nav me-auto">
+        <Navbar.Collapse id="basic-navbar-nav d-flex align-items-center">
+          <Nav className="custom-nav mx-auto">
             {menuItems.map((menuItem, index) => (
-              <div>
+              <div className="">
               <NavDropdown
                 title={menuItem.title}
                 key={index}
                 id={`menu-dropdown-${index}`}
-                className="custom-nav-dropdown"
+                className="custom-nav-dropdown link"
               >
                 {menuItem.items.map((item, itemIndex) => (
                   <NavDropdown.Item
@@ -56,10 +56,12 @@ function Header() {
               </NavDropdown>
               </div>
             ))}
-            <div className="position-relative row custom-gap search-icon">
-              <img src={search} alt="search" />
+          </Nav>
+          <div className="d-flex gap-4">
+          <div className="position-relative row custom-gap search-icon">
+              <img src={search} alt="search" className="w-75"/>
             </div>
-            <li className="nav-item">
+            <li className="nav-item link d-flex align-items-center">
               <a className="nav-link active text-white" href="#agents">
                 Agents
               </a>
@@ -67,7 +69,7 @@ function Header() {
             <button type="button" className="btn btn-outline-light">
               Contact
             </button>
-          </Nav>
+            </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

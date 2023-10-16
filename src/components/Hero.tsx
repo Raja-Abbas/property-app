@@ -3,14 +3,15 @@ import HeaderNav from "./common/Header";
 import Grid from "./common/Grid";
 import ChatBubble from "../images/chat bubble.png";
 import ImagesGrid from "./common/ImagesGrid";
-
+import TextCard from "./common/textCard";
+import ColorCard from "./common/ColorCard";
 interface HeroProps {
   title: string;
   buttonText: string;
 }
 function Hero({ title, buttonText }: HeroProps) {
   return (
-    <div>
+    <div className="d-flex flex-column gap-4">
       <div className="default position-relative">
                <div className="position-absolute col-3 left-0 bottom-0">
                   <img src={ChatBubble} alt="" />
@@ -29,8 +30,8 @@ function Hero({ title, buttonText }: HeroProps) {
             <div className="row justify-content-center align-items-center">
               <div className="">
                 <div className="button-get px-1 py-1 rounded-5 border border-1 border-light justify-content-center align-items-center d-flex">
-                  <div className="justify-content-center align-items-center">
-                    <p className="button-start text-light fs-6 font-family-Poppins d-flex align-items-center text-center">
+                  <div className="justify-content-center px-2 py-2 align-items-center">
+                    <p className="button-start text-light fs-4 font-family-Poppins d-flex align-items-center text-center">
                       {buttonText}
                     </p>
                   </div>
@@ -43,6 +44,8 @@ function Hero({ title, buttonText }: HeroProps) {
       </div>
       <Grid />
       <ImagesGrid/>
+      <TextCard/>
+      <ColorCard/>
     </div>
   );
 }
