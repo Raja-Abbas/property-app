@@ -132,6 +132,7 @@ function ImagesGrid() {
       />
 
       {/* Second Image Grid Section */}
+      <div className="d-flex row justify-content-between">
       <ImageGridSectionTwo
         backgrounds={[
           "background6",
@@ -141,7 +142,7 @@ function ImagesGrid() {
         ]}
         imageSource={ImageLargeTwo}
       />
-
+      </div>
       {/* Text Section */}
       <TextSection
         title="Financing & Mortgage Options."
@@ -150,7 +151,7 @@ function ImagesGrid() {
       />
 
       {/* Guides Components */}
-      <div className="d-flex gap-5 justify-content-around">
+      <div className="d-flex mx-5 justify-content-between">
       <Guides title="Buyers" subtitle="Buyer’s Guide" bgClass="bg-image" />
       <Guides title="Sellers" subtitle="Seller’s Guide" bgClass="bg-imageTwo" />
       </div>

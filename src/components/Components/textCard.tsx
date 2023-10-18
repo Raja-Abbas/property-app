@@ -4,7 +4,7 @@ import ShieldShaded from "../../images/Shield shaded.svg"
 
 function textCard() {
   return (
-      <div className="d-flex flex-wrap justify-content-evenly mt-4 mb-4 h-100">
+      <div className="d-flex flex-wrap justify-content-between m-4 mt-4 mb-4 h-100">
   <div className="">
     <div className="card cardtwo">
         <img src={checkcircle} alt="" className='checkcircle'/>

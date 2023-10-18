@@ -1,10 +1,11 @@
 import React from "react";
-import HeaderNav from "./common/Header";
-import Grid from "./common/Grid";
+import HeaderNav from "./Components/Header";
+import Grid from "./Components/Grid";
 import ChatBubble from "../images/chat bubble.png";
-import ImagesGrid from "./common/ImagesGrid";
-import TextCard from "./common/textCard";
-import ColorCard from "./common/ColorCard";
+import ImagesGrid from "./Components/ImagesGrid";
+import TextCard from "./Components/textCard";
+import ColorCard from "./Components/ColorCard";
+import Footer from "./Components/footer";
 interface HeroProps {
   title: string;
   buttonText: string;
@@ -42,10 +43,13 @@ function Hero({ title, buttonText }: HeroProps) {
           </div>
         </div>
       </div>
+      <div className="body-part">
       <Grid />
       <ImagesGrid/>
       <TextCard/>
       <ColorCard/>
+      <Footer/>
+      </div>
     </div>
   );
 }
