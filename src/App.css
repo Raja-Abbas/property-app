@@ -256,3 +256,10 @@ line-height: 67.2px;
   color: red;
   transition: all 0.3s ease;
 }
+.input{
+  border: none;
+}
+
+.background-danger{
+  background: url(./images/bg-danger.svg);
+}

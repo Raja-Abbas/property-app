@@ -3,7 +3,7 @@ import React from 'react'
 function ColorCard() {
   return (
     <div className="px-1  row justify-content-center mx-3 flex-wrap my-4">
-    <div className="px-1 bg-danger col-xl-6 justify-content-center align-items-center d-flex w-50 py-5 gap-2">
+    <div className="px-1 background-danger col-xl-6 justify-content-center align-items-center d-flex w-50 py-5 gap-2">
         <div className="py-1 justify-content-center align-items-center d-flex">
             <div className="row align-items-center">
                 <p className="text-center m-0 px-3 py-2"><span className="text-light fs-6 fw-light font-family-Poppins">Our </span><span className="text-light fs-6 fw-semibold font-family-Poppins">ipsum</span><span className="text-light fs-6 fw-light font-family-Poppins"> dolor</span></p>
@@ -14,7 +14,7 @@ function ColorCard() {
                         <div className="">
                             <div className="px-1 py-1 rounded-5 border border-1 border-light justify-content-center align-items-center d-flex">
                                 <div className="justify-content-center align-items-center">
-                                    <p className="text-center text-light fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Learn More</p>
+                                    <p className="text-center text-light fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 imagebutton">Learn More</p>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ function ColorCard() {
                         <div className="">
                             <div className="px-1 py-1 rounded-5 border border-1 border-light justify-content-center align-items-center d-flex">
                                 <div className=" justify-content-center align-items-center">
-                                    <p className="text-center text-light fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">Find Out How</p>
+                                    <p className="text-center text-light fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 imagebutton">Find Out How</p>
                                 </div>
                             </div>
                         </div>

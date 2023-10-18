@@ -5,6 +5,7 @@ import ChatBubble from "../images/chat bubble.png";
 import ImagesGrid from "./Components/ImagesGrid";
 import TextCard from "./Components/textCard";
 import ColorCard from "./Components/ColorCard";
+import Blog from "./Components/blog";
 import Footer from "./Components/footer";
 import Reviews from "./Components/reviews";
 
@@ -50,6 +51,7 @@ function Hero({ title, buttonText }: HeroProps) {
       <ImagesGrid/>
       <TextCard/>
       <ColorCard/>
+      <Blog/>
       <Footer/>
       <Reviews/>
       </div>
