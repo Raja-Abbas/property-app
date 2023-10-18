@@ -147,10 +147,6 @@ line-height: 67.2px;
   height: 410px;
 }
 
-.grid-width{
-  width: 90%;
-  margin: auto;
-}
 
 .button-chat{
   cursor: pointer;
@@ -254,4 +250,5 @@ line-height: 67.2px;
 
 .background-danger{
   background: url(./images/bg-danger.svg);
+  background-size: cover;
 }
