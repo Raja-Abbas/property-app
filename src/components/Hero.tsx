@@ -6,6 +6,8 @@ import ImagesGrid from "./Components/ImagesGrid";
 import TextCard from "./Components/textCard";
 import ColorCard from "./Components/ColorCard";
 import Footer from "./Components/footer";
+import Reviews from "./Components/reviews";
+
 interface HeroProps {
   title: string;
   buttonText: string;
@@ -49,6 +51,7 @@ function Hero({ title, buttonText }: HeroProps) {
       <TextCard/>
       <ColorCard/>
       <Footer/>
+      <Reviews/>
       </div>
     </div>
   );
