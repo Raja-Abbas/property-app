@@ -58,14 +58,14 @@ interface ImageGridSectionProps {
 
 function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
   return (
-    <div className="d-flex justify-content-center m-4">
-      <div className="w-100">
-        <div className="">
+    <div className="d-flex justify-content-between m-4">
+      <div className="w-100 d-flex">
+        <div className="d-flex">
           <div className="d-flex gap-2 flex-wrap">
             {backgrounds.map((backgroundClass, index) => (
               <div
                 key={index}
-                className={`bg-opacity-50 col-5 justify-content-end align-items-center ${backgroundClass}`}
+                className={`bg-opacity-50 col-5 justify-content-center align-items-center ${backgroundClass}`}
               >
                 {/* Your content for each grid item */}
               </div>
@@ -86,11 +86,11 @@ interface ImageGridSectionTwoProps {
   imageSource: string;
 }
 
-function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionProps) {
+function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
-    <div className="d-flex justify-content-between m-3 flex-row-reverse gap-image">
-      <div className="w-100 d-flex justify-content-between">
-        <div className="d-flex justify-content-between">
+    <div className="d-flex justify-content-between m-3 flex-row-reverse">
+      <div className="w-100 d-flex">
+        <div className="d-flex">
           <div className="d-flex gap-2 flex-wrap">
             {backgrounds.map((backgroundClass, index) => (
               <div
@@ -132,7 +132,6 @@ function ImagesGrid() {
       />
 
       {/* Second Image Grid Section */}
-      <div className="d-flex row justify-content-between">
       <ImageGridSectionTwo
         backgrounds={[
           "background6",
@@ -142,7 +141,6 @@ function ImagesGrid() {
         ]}
         imageSource={ImageLargeTwo}
       />
-      </div>
       {/* Text Section */}
       <TextSection
         title="Financing & Mortgage Options."

@@ -7,8 +7,11 @@ function Video() {
   return (
     <div>
       <div className="px-1 py-1  row align-items-center justify-content-center">
-    <p className="text-center text-black fs-1 font-family-Poppins col-xl-9 m-0 px-3 py-2">Explore The Beautiful Jersey Shore</p>
-    <div className=" row align-items-center d-flex">
+      <div id="component" className="container-fluid py-3 d-flex justify-content-center">
+    <p className="text-center text-black col-6 opacity-50 fs-1 font-family-Poppins  m-0 px-3 py-2">
+    Explore The Beautiful Jersey Shore
+    </p>
+</div>    <div className=" row align-items-center d-flex">
         <div className="px-1 py-5 bg-opacity-50 justify-content-center align-items-center d-flex">
             <div className="position-relative shadow mx-2">
             <img src={Video1} className="img-fluid" alt="Responsive image"/>

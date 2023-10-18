@@ -59,7 +59,7 @@ function Header() {
           </Nav>
           <div className="d-flex gap-4">
           <div className="position-relative row custom-gap search-icon">
-              <img src={search} alt="search" className="w-75"/>
+              <img src={search} alt="search" className="w-100"/>
             </div>
             <li className="nav-item link d-flex align-items-center">
               <a className="nav-link active text-white" href="#agents">
