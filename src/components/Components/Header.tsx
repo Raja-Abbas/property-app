@@ -31,7 +31,7 @@ function Header() {
   ];
 
   return (
-    <Navbar expand="lg" className="custom-navbar d-flex jutify-content-around align-items-center">
+    <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">
       <Container className="d-flex align-items-center">
         <img src={hero} alt="jhg" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -62,11 +62,11 @@ function Header() {
               <img src={search} alt="search" className="w-100"/>
             </div>
             <li className="nav-item link d-flex align-items-center">
-              <a className="nav-link active text-white" href="#agents">
+              <a className="nav-link active text-dark" href="#agents">
                 Agents
               </a>
             </li>
-            <button type="button" className="btn btn-outline-light">
+            <button type="button" className="contact btn btn-outline-dark">
               Contact
             </button>
             </div>

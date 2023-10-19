@@ -8,6 +8,10 @@ import ColorCard from "./Components/ColorCard";
 import Blog from "./Components/blog";
 import Footer from "./Components/footer";
 import Reviews from "./Components/reviews";
+import Card from "./Components/card";
+import Logo from "./Components/logo";
+import FooterLinks from "./Components/footerLinks"
+import Copyright from "./Components/copyright";
 
 interface HeroProps {
   title: string;
@@ -55,6 +59,10 @@ function Hero({ title, buttonText }: HeroProps) {
       <Blog/>
       <Footer/>
       <Reviews/>
+      <Card/>
+      <Logo/>
+      <FooterLinks/>
+      <Copyright/>
     </div>
   );
 }

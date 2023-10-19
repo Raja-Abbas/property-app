@@ -254,6 +254,18 @@ line-height: 67.2px;
   background-size: cover;
 }
 
+
+.logo-image{
+  width: 400px;
+  margin: auto;
+}
+
+.FooterLinks{
+  width: 24px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
 @media(max-width:900px){
   .flex{
     flex-wrap: wrap;
@@ -271,5 +283,13 @@ line-height: 67.2px;
     margin: auto;
     gap: 20px;
   }
+  .logo-image{
+    width: 200px;
+  }
+  .custom-navbar{
+    background-color: black;
+  }
+  .custom-nav {
+    width: fit-content;
+  }
 }
-
