@@ -51,10 +51,10 @@ function Hero({ title, buttonText }: HeroProps) {
       <ImagesGrid/>
       <TextCard/>
       <ColorCard/>
+      </div>
       <Blog/>
       <Footer/>
       <Reviews/>
-      </div>
     </div>
   );
 }

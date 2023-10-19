@@ -9,9 +9,9 @@ function blog() {
     <div className=" row align-items-center justify-content-center gap-2">
     <div className="py-1 row justify-content-center align-items-center d-flex gap-4">
         <p className="text-danger text-center fs-1 fw-light font-family-Poppins m-0 py-2">Featured Articles</p>
-        <div className=" d-flex justify-content-center w-100">
-            <div className="">
-                <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
+        <div className=" d-flex justify-content-center w-100 flex">
+            <div className="blog-responsive">
+                <div className="bg-white col-12 row align-items-center justify-content-center d-flex blog">
                     <img className="position-relative col-12" src={Image1} alt="" />
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
                         <div className="row align-items-center d-flex">
@@ -22,7 +22,7 @@ function blog() {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
                     <img className="position-relative col-12" src={Image2} alt="" />
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
@@ -34,7 +34,7 @@ function blog() {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
                     <img className="position-relative col-12" src={Image3} alt="" />
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
@@ -46,7 +46,7 @@ function blog() {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
                     <img className="position-relative col-12" src={Image4} alt="" />
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">

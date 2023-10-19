@@ -2,7 +2,7 @@ import React from 'react'
 
 function footer() {
   return (
-    <div className="px-1  d-flex justify-content-around m-4">
+    <div className="px-1  d-flex justify-content-around m-4 flex-wrap">
     <div className="">
         <p className="text-center text-danger fs-5 fw-semibold font-family-Poppins col-4 m-0 px-3 py-2">Buyer</p>
         <p className="text-dark hover fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 footer-link footer-link">Property Listings</p>

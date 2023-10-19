@@ -58,7 +58,7 @@ interface ImageGridSectionProps {
 
 function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
   return (
-    <div className="d-flex justify-content-between m-4">
+    <div className="d-flex justify-content-between m-4 imagesGrid-responsive">
       <div className="w-100 d-flex">
         <div className="d-flex">
           <div className="d-flex gap-2 flex-wrap">
@@ -88,7 +88,7 @@ interface ImageGridSectionTwoProps {
 
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
-    <div className="d-flex justify-content-between m-3 flex-row-reverse">
+    <div className="d-flex justify-content-between m-3 flex-row-reverse imagesGrid-responsive">
       <div className="w-100 d-flex">
         <div className="d-flex">
           <div className="d-flex gap-2 flex-wrap">

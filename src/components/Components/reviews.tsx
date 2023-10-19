@@ -12,7 +12,7 @@ function reviews() {
         <div className="p-1 col-7 row justify-content-end align-items-end">
             <p className="text-secondary fs-6 fw-light font-family-Poppins col-11 m-0 px-3 py-2">June 11, 2023</p>
             <p className="text-dark fs-6 fw-normal font-family-Poppins col-11 m-0 px-3 py-2">“We are so happy with  quick example text to build on the card title and make up the bulk of the card's content.”</p>
-            <p className="text-center text-danger fs-6 fw-light font-family-Poppins col-2 m-0 px-3 py-2">Jesse A.</p>
+            <p className="text-end text-danger fs-6 fw-light font-family-Poppins m-0 px-3 py-2">Jesse A.</p>
         </div>
         <div className="position-relative col-2">
             <img src={ChevronRight} alt="" className='imagebutton'/>
