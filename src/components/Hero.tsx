@@ -1,17 +1,18 @@
 import React from "react";
-import HeaderNav from "./Components/Header";
-import Grid from "./Components/Grid";
+import HeaderNav from "./Home/Header";
+import Grid from "./Home/Grid";
 import ChatBubble from "../images/chat bubble.png";
-import ImagesGrid from "./Components/ImagesGrid";
-import TextCard from "./Components/textCard";
-import ColorCard from "./Components/ColorCard";
-import Blog from "./Components/blog";
-import Footer from "./Components/footer";
-import Reviews from "./Components/reviews";
-import Card from "./Components/card";
-import Logo from "./Components/logo";
-import FooterLinks from "./Components/footerLinks"
-import Copyright from "./Components/copyright";
+import ImagesGrid from "./Home/ImagesGrid";
+import TextCard from "./Home/textCard";
+import ColorCard from "./Home/ColorCard";
+import Blog from "./Home/blog";
+import Footer from "./Home/footer";
+import Reviews from "./Home/reviews";
+import Card from "./Home/card";
+import Logo from "./Home/logo";
+import FooterLinks from "./Home/footerLinks";
+import Copyright from "./Home/copyright";
+import ResponsiveNavbar from "./Home/responsiveNavbar";
 
 interface HeroProps {
   title: string;
@@ -21,13 +22,16 @@ function Hero({ title, buttonText }: HeroProps) {
   return (
     <div className="d-flex flex-column gap-4">
       <div className="default position-relative">
+        <div className="d-none d-lg-flex">
                <div className="position-absolute col-3 left-0 bottom-0">
                   <img src={ChatBubble} alt="" />
                 </div>
                 <div className="position-absolute px-1 py-1 bg-black rounded-1 col-12 d-flex w-25 bottom-0">
                     <p className="text-center text-light fs-6 fw-semibold font-family-Poppins col-11 m-0 px-3 py-2">How can I help you?</p>
                 </div>
+                </div>
         <HeaderNav />
+        <ResponsiveNavbar/>
         <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-4 bottom-0 start-0 end-0">
           <div className="col-xl-6 row justify-content-center align-items-center d-flex">
             <div className="col-12 row justify-content-center align-items-center d-flex">

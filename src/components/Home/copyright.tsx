@@ -5,10 +5,10 @@ function copyright() {
     <div className=" row justify-content-center align-items-center mt-4 mb-4">
     <div className="col-xl-3 justify-content-center align-items-center d-flex">
         <div className="justify-content-center align-items-center d-flex flex-wrap">
-            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Privacy Policy</p>
-            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Terms of Use</p>
-            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Site Map</p>
-            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Home</p>
+            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 footer-link">Privacy Policy</p>
+            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 footer-link">Terms of Use</p>
+            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 footer-link">Site Map</p>
+            <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 footer-link">Home</p>
         </div>
     </div>
     <div className="shadow col-xl-5 justify-content-center align-items-center d-flex">

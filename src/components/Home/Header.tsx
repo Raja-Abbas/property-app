@@ -31,9 +31,9 @@ function Header() {
   ];
 
   return (
-    <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">
+    <Navbar expand="lg" className="d-none d-lg-flex custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center d-none d-lg-flex">
       <Container className="d-flex align-items-center">
-        <img src={hero} alt="jhg" />
+        <img src={hero} alt="" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav d-flex align-items-center">
           <Nav className="custom-nav mx-auto">

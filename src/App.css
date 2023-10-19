@@ -31,13 +31,21 @@ line-height: 67.2px;
     font-weight: 50;
 }
 .custom-nav-dropdown .nav-link {
-    color: white; 
+    color: white;
+  }
+.custom-nav-dropdown  .nav-link:hover{
+    color: white;
+  }
+  .custom-nav-dropdown  .nav-link:focus{
+    color: white;
   }
 
+  .custom-nav-dropdown  .nav-link:active{
+    color: white;
+  }
 .custom-navbar {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
   }
   
   .custom-nav {
@@ -45,9 +53,7 @@ line-height: 67.2px;
     gap: 10px;
   }
   
-  .custom-gap {
-    margin-right: 40px;
-  }
+  
   
   .button-start{
     margin: auto;
@@ -286,10 +292,15 @@ line-height: 67.2px;
   .logo-image{
     width: 200px;
   }
-  .custom-navbar{
-    background-color: black;
-  }
-  .custom-nav {
-    width: fit-content;
+  .navbar-responsive{
+    opacity: 1;
   }
 }
+@media(max-width:1000px){
+    .navbar-responsive{
+      opacity: 0;
+    }
+}
+
+
+
