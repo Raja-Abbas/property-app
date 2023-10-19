@@ -62,11 +62,11 @@ function Header() {
               <img src={search} alt="search" className="w-100"/>
             </div>
             <li className="nav-item link d-flex align-items-center">
-              <a className="nav-link active text-dark" href="#agents">
+              <a className="nav-link active text-white" href="#agents">
                 Agents
               </a>
             </li>
-            <button type="button" className="contact btn btn-outline-dark">
+            <button type="button" className="contact btn btn-outline-light">
               Contact
             </button>
             </div>
