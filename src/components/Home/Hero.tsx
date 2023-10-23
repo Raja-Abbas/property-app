@@ -1,18 +1,17 @@
 import React from "react";
-import HeaderNav from "./Home/Header";
-import Grid from "./Home/Grid";
-import ChatBubble from "../images/chat bubble.png";
-import ImagesGrid from "./Home/ImagesGrid";
-import TextCard from "./Home/textCard";
-import ColorCard from "./Home/ColorCard";
-import Blog from "./Home/blog";
-import Footer from "./Home/footer";
-import Reviews from "./Home/reviews";
-import Card from "./Home/card";
-import Logo from "./Home/logo";
-import FooterLinks from "./Home/footerLinks";
-import Copyright from "./Home/copyright";
-import ResponsiveNavbar from "./Home/responsiveNavbar";
+import HeaderNav from "./Header";
+import Grid from "./Grid";
+import ChatBubble from "../../images/chat bubble.png";
+import ImagesGrid from "./ImagesGrid";
+import TextCard from "./textCard";
+import ColorCard from "./ColorCard";
+import Blog from "./blog";
+import Footer from "./footer";
+import Reviews from "./reviews";
+import Card from "./card";
+import Logo from "./logo";
+import FooterLinks from "./footerLinks";
+import Copyright from "./copyright";
 
 interface HeroProps {
   title: string;
@@ -31,7 +30,6 @@ function Hero({ title, buttonText }: HeroProps) {
                 </div>
                 </div>
         <HeaderNav />
-        <ResponsiveNavbar/>
         <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-4 bottom-0 start-0 end-0">
           <div className="col-xl-6 row justify-content-center align-items-center d-flex">
             <div className="col-12 row justify-content-center align-items-center d-flex">

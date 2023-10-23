@@ -297,8 +297,18 @@ line-height: 67.2px;
   }
 }
 @media(max-width:1000px){
-    .navbar-responsive{
-      opacity: 0;
+    .nav{
+      opacity: 1;
+      background-color: gray;
+    }
+    .nav-collapse{
+      width: 300px;
+    }
+    .imagesGrid-responsive{
+      display: block;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
     }
 }
 
