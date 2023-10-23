@@ -12,6 +12,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.Investor{
+  background-image: url("./images/hero\ \(1\).svg");
+  height: 50vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 @media(min-width:1000px){
 .body-part{
   width: 1000px;
@@ -47,7 +54,9 @@ line-height: 67.2px;
     display: flex;
     justify-content: space-between;
   }
-  
+  .custom-navbar:hover{
+    background-color: black;
+  }
   .custom-nav {
     display: flex;
     gap: 10px;

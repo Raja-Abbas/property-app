@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from "../Home/Header"
 
 function main() {
   return (
     <div>
-      <section id="buyer">Buyer Section Content</section>
+      <div className='default'>
+        <Header />
+      </div>
     </div>
   )
 }
