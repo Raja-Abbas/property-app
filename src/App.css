@@ -328,6 +328,10 @@ line-height: 67.2px;
       justify-content: center;
       width: 100%;
     }
+    .flex-break{
+      display: flex;
+      flex-direction: column;
+}
 }
 .bg-frame{
   background: url(./images/Frame\ 19.svg);
@@ -355,3 +359,4 @@ line-height: 67.2px;
 .Margin{
   margin-top: 600px;
 }
+
