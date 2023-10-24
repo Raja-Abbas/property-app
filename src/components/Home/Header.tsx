@@ -35,7 +35,7 @@ function Header() {
             </div>
 
             <li className="nav-item link d-flex align-items-center">
-              <a className="nav-link active text-white" href="#agents">
+              <a className="nav-link active text-white" href="about">
                 Agents
               </a>
             </li>
