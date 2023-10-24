@@ -74,7 +74,7 @@ function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
         </div>
       </div>
       <div className="bg-opacity-50">
-        <img src={imageSource} alt="Image" className="background5" />
+        <img src={imageSource} alt="Image" className="background5" loading="lazy"/>
       </div>
     </div>
   );
@@ -104,7 +104,7 @@ function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoPr
         </div>
       </div>
       <div className="bg-opacity-50">
-        <img src={imageSource} alt="Image" className="background5" />
+        <img src={imageSource} alt="Image" className="background5" loading="lazy"/>
       </div>
     </div>
   );

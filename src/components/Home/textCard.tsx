@@ -7,7 +7,7 @@ function textCard() {
       <div className="d-flex flex-wrap justify-content-around m-1 mt-5 mb-4 h-100 w-100">
   <div className="">
     <div className="card cardtwo border-0">
-        <img src={checkcircle} alt="" className='checkcircle'/>
+        <img src={checkcircle} alt="" className='checkcircle' loading='lazy'/>
       <div className="card-body text-center">
         <h5 className="card-title"><p className="text-center text-danger fs-2 fw-medium font-family-Poppins  m-0 px-3 py-2">Licensed Builder</p></h5>
         <p className="card-text"><p className="text-center text-dark fs-5 fw-light font-family-Poppins  m-0 px-3 py-2">25+ Years Experience</p></p>
@@ -18,7 +18,7 @@ function textCard() {
   <div className="">
     <div className="card cardtwo border-0">
       <div className="card-body text-center">
-        <img src={ShieldShaded} alt="" className='checkcircle'/>
+        <img src={ShieldShaded} alt="" className='checkcircle' loading='lazy'/>
         <h5 className="card-title"><p className="text-center text-danger fs-2 fw-medium font-family-Poppins  m-0 px-3 py-2">Federal Building Inspector</p></h5>
         <p className="card-text"><p className="text-center text-dark fs-5 fw-light font-family-Poppins  m-0 px-3 py-2">10+ Years Experience</p></p>
         <p className="card-text"><p className="text-center text-dark fs-6 fw-light font-family-Poppins  m-0 px-3 py-2">Mike spent 10+ years as a State Certified NJ Inspector. When it comes to permits, variances, and approvals, he has seen it all. He uses his expertise to help families when navigating home inspections.</p></p>

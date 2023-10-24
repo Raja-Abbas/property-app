@@ -7,7 +7,7 @@ function reviews() {
     <div className="py-1 bg-light py-4 d-flex justify-content-center align-items-center mt-5 mb-5 flex">
     <div className="d-flex justify-content-center align-items-center d-flex">
         <div className="position-relative col-1">
-            <img src={ChevronLeft} alt="" className='imagebutton'/>
+            <img src={ChevronLeft} alt="" className='imagebutton' loading='lazy'/>
         </div>
         <div className="p-1 col-7 row justify-content-end align-items-end">
             <p className="text-secondary fs-6 fw-light font-family-Poppins col-11 m-0 px-3 py-2">June 11, 2023</p>
@@ -15,7 +15,7 @@ function reviews() {
             <p className="text-end text-danger fs-6 fw-light font-family-Poppins m-0 px-3 py-2">Jesse A.</p>
         </div>
         <div className="position-relative col-2">
-            <img src={ChevronRight} alt="" className='imagebutton'/>
+            <img src={ChevronRight} alt="" className='imagebutton' loading='lazy'/>
         </div>
     </div>
     <div className="row align-items-end col-3 mx-5 gap-2">

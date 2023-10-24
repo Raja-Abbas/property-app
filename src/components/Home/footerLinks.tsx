@@ -17,19 +17,19 @@ function footerLinks() {
             <p className="text-center text-dark fs-6 fw-normal font-family-Poppins text-decoration-underline col-12 m-0 px-3 py-2">contact@MikeKoenRealtyNJ.com</p>
             <div className="col-6 row justify-content-between align-items-center">
                 <div className="position-relative col-1">
-                    <img src={Facebook} alt="" className='FooterLinks'/>
+                    <img src={Facebook} alt="" className='FooterLinks' loading='lazy'/>
                 </div>
                 <div className="position-relative col-1">
-                    <img src={Instagram} alt="" className='FooterLinks'/>
+                    <img src={Instagram} alt="" className='FooterLinks' loading='lazy'/>
                 </div>
                 <div className="position-relative col-1">
-                    <img src={Pinterest} alt="" className='FooterLinks'/>
+                    <img src={Pinterest} alt="" className='FooterLinks' loading='lazy'/>
                 </div>
                 <div className="position-relative col-1">
-                    <img src={TikTok} alt="" className='FooterLinks'/>
+                    <img src={TikTok} alt="" className='FooterLinks' loading='lazy'/>
                 </div>
                 <div className="position-relative col-1">
-                    <img src={Youtube} alt="" className='FooterLinks'/>
+                    <img src={Youtube} alt="" className='FooterLinks' loading='lazy'/>
                 </div>
             </div>
         </div>

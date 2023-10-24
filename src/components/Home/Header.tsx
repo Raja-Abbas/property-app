@@ -12,7 +12,7 @@ function Header() {
     <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">
       <Container className="d-flex align-items-center">
       <a className="nav-link active text-white" href="/">
-        <img src={hero} alt="" />
+        <img src={hero} alt="" loading="lazy"/>
         </a>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav d-flex align-items-center">
@@ -88,7 +88,7 @@ function Header() {
           </Nav>
           <div className="d-flex gap-4">
           <div className="position-relative row custom-gap search-icon">
-              <img src={search} alt="search" className="w-100"/>
+              <img src={search} alt="search" className="w-100" loading="lazy"/>
             </div>
 
             <li className="nav-item link d-flex align-items-center">

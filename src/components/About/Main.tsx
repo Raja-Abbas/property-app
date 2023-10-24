@@ -19,7 +19,7 @@ function Main() {
         <Header />
       </div>
       <div>
-      <div className="mx-4 mt-5 row justify-content-center align-items-center">
+      <div className="mx-4 row justify-content-center align-items-center">
     <div className="col-lg-6 row align-items-center">
         <p className="text-center text-danger fs-1 fw-light font-family-Poppins col-12 m-0 px-3 py-2">MIKE KOEN</p>
         <p className="text-center col-12 m-0 px-3 py-2"><span className="text-dark fs-4 fw-light font-family-Poppins"><br/>“Real Estate is more than my passion. <br/>It’s my </span><span className="text-dark fs-4 fw-bold font-family-Poppins">purpose</span><span className="text-dark fs-4 fw-light font-family-Poppins">.”</span></p>
@@ -40,8 +40,8 @@ function Main() {
     <div className="col-lg-4 align-items-center">
         <p className="text-dark fs-5 fw-normal font-family-Poppins col-12 m-0 px-1 py-2">Serving as a state building inspector for over 10 years, he holds vast knowledge in property management, subdivision protocols, and has extensive experience collaborating with DEP/municipalities. <br/><br/>In addition, Mike works with an extensive team of lenders, surveyors, engineers, and attorneys who will guide you through the process.</p>
     </div>
-    <img className="px-1 py-1 col-lg-4" src={Image3} />
-    <img className="px-1 py-1 col-lg-4" src={Image4} />
+    <img className="px-1 py-1 col-lg-4 col-md-4" src={Image3} />
+    <img className="px-1 py-1 col-lg-4 col-md-4" src={Image4} />
 </div>
       </div>
       <div>

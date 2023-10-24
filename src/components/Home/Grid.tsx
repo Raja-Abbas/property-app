@@ -5,7 +5,7 @@ function Grid() {
   return (
     <div className="d-flex justify-content-center grid flex-wrap">
       <div className="position-relative  row imageweb">
-        <img src={ImageWeb} alt="ImageWeb"/>
+        <img src={ImageWeb} alt="ImageWeb" loading='lazy'/>
       </div>
       <div className="py-1 justify-content-center align-items-center textweb">
     <div className="col-12 row align-items-center d-flex">

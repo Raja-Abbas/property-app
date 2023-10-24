@@ -14,18 +14,18 @@ function Video() {
 </div>    <div className=" row align-items-center d-flex">
         <div className="px-1 py-5 bg-opacity-50 justify-content-center align-items-center d-flex">
             <div className="position-relative shadow mx-2">
-            <img src={Video1} className="img-fluid" alt="Responsive image"/>
+            <img src={Video1} className="img-fluid" alt="Responsive image" loading='lazy'/>
             </div>
         </div>
         <div className="justify-content-between d-flex flex-wrap w-100">
             <div className="bg-opacity-50 justify-content-center align-items-center video">
                 <div className="position-relative shadow d-flex justify-content-center">
-                <img src={Video2} alt="..." className="img-fluid"/>
+                <img src={Video2} alt="..." className="img-fluid" loading='lazy'/>
                 </div>
             </div>
             <div className="bg-opacity-50 justify-content-center align-items-center video">
                 <div className="position-relative shadow d-flex justify-content-center">
-                <img src={Video3} alt="Video3" className="img-fluid"/>
+                <img src={Video3} alt="Video3" className="img-fluid" loading='lazy'/>
                 </div>
             </div>
         </div>

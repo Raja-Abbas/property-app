@@ -6,7 +6,7 @@ function Company() {
     <div>
       <div className="py-1  row justify-content-center align-items-center m-5">
     <div className="position-relative col-12 w-50 row">
-      <img src={ImageAlts} alt="" />
+      <img src={ImageAlts} alt="" loading='lazy'/>
     </div>
     <div className="col-12 justify-content-center">
         <div className="col-12">

@@ -12,7 +12,7 @@ function blog() {
         <div className=" d-flex justify-content-center w-100 flex">
             <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex blog">
-                    <img className="position-relative col-12" src={Image1} alt="" />
+                    <img className="position-relative col-12" src={Image1} alt="" loading='lazy'/>
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
                         <div className="row align-items-center d-flex">
                             <p className="text-center text-danger fs-4 fw-medium font-family-Poppins  m-0 px-3 py-2">Blog Post Title</p>
@@ -24,7 +24,7 @@ function blog() {
             </div>
             <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
-                    <img className="position-relative col-12" src={Image2} alt="" />
+                    <img className="position-relative col-12" src={Image2} alt="" loading='lazy'/>
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
                         <div className="col-10 row align-items-center d-flex">
                             <p className="text-center text-danger fs-4 fw-medium font-family-Poppins m-0 px-3 py-2">Blog Post Title</p>
@@ -36,7 +36,7 @@ function blog() {
             </div>
             <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
-                    <img className="position-relative col-12" src={Image3} alt="" />
+                    <img className="position-relative col-12" src={Image3} alt="" loading='lazy'/>
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
                         <div className="col-10 row align-items-center d-flex">
                             <p className="text-center text-danger fs-4 fw-medium font-family-Poppins m-0 px-3 py-2">Blog Post Title</p>
@@ -48,7 +48,7 @@ function blog() {
             </div>
             <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex">
-                    <img className="position-relative col-12" src={Image4} alt="" />
+                    <img className="position-relative col-12" src={Image4} alt="" loading='lazy'/>
                     <div className="p-1 bg-white row align-items-center d-flex justify-content-center">
                         <div className="col-10 row align-items-center d-flex">
                             <p className="text-center text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">Blog Post Title</p>
