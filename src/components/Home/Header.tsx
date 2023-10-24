@@ -30,6 +30,7 @@ function Header() {
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
     <li><a className="dropdown-item" href="Investor">Investor</a></li>
+    <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
     <li><a className="dropdown-item" href="About">About Us</a></li>
   </ul>
 </div>
@@ -45,6 +46,7 @@ function Header() {
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Investor">Investor</a></li>
     <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
     <li><a className="dropdown-item" href="About">About Us</a></li>
   </ul>
@@ -62,6 +64,7 @@ function Header() {
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
     <li><a className="dropdown-item" href="Investor">Investor</a></li>
+    <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
     <li><a className="dropdown-item" href="About">About Us</a></li>
   </ul>
 </div>
@@ -77,6 +80,7 @@ function Header() {
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Investor">Investor</a></li>
     <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
     <li><a className="dropdown-item" href="About">About Us</a></li>
   </ul>

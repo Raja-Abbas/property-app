@@ -27,7 +27,13 @@
   background-repeat: no-repeat;
 }
 
-
+.About{
+  background-image: url("./images/hero\ \(3\).svg");
+  height: 50vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 @media(min-width:1000px){
 .body-part{
   width: 1000px;
