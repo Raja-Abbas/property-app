@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import hero from "../../images/logo.png";
 import search from "../../images/search-icon.svg";
-import Icon from "../../images/R Icon.svg"
 
 function Header() {
   
@@ -12,22 +11,76 @@ function Header() {
   return (
     <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">
       <Container className="d-flex align-items-center">
+      <a className="nav-link active text-white" href="/">
         <img src={hero} alt="" />
+        </a>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav d-flex align-items-center">
           <Nav className="custom-nav mx-auto">
-          <a className="nav-link active text-white" href="buyer">
-                Buyer <img src={Icon} alt="" />
-              </a>
-              <a className="nav-link active text-white" href="seller">
-                Seller <img src={Icon} alt="" />
-              </a>
-              <a className="nav-link active text-white" href="investor">
-                Investor <img src={Icon} alt="" />
-              </a>
-              <a className="nav-link active text-white" href="propertymanagement">
-                Property Management <img src={Icon} alt="" />
-              </a>
+          <div className="dropdown">
+  <button
+    className="nav-link active text-white dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Buyer
+  </button>
+  <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
+    <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Investor">Investor</a></li>
+    <li><a className="dropdown-item" href="About">About Us</a></li>
+  </ul>
+</div>
+<div className="dropdown">
+  <button
+    className="nav-link active text-white dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Seller
+  </button>
+  <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
+    <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
+    <li><a className="dropdown-item" href="About">About Us</a></li>
+  </ul>
+</div>
+<div className="dropdown">
+  <button
+    className="nav-link active text-white dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Investor
+  </button>
+  <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
+    <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Investor">Investor</a></li>
+    <li><a className="dropdown-item" href="About">About Us</a></li>
+  </ul>
+</div>
+<div className="dropdown">
+  <button
+    className="nav-link active text-white dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Property Management
+  </button>
+  <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
+    <li><a className="dropdown-item" href="/">Home</a></li>
+    <li><a className="dropdown-item" href="Contact">Contact Us</a></li>
+    <li><a className="dropdown-item" href="About">About Us</a></li>
+  </ul>
+</div>
           </Nav>
           <div className="d-flex gap-4">
           <div className="position-relative row custom-gap search-icon">

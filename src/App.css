@@ -66,6 +66,7 @@ line-height: 67.2px;
   .custom-navbar:hover{
     background-color: black;
   }
+
   .custom-nav {
     display: flex;
     gap: 10px;
@@ -332,6 +333,10 @@ line-height: 67.2px;
       display: flex;
       flex-direction: column;
 }
+.custom-navbar{
+  background-color: black;
+  z-index: 1000000;
+}
 }
 .bg-frame{
   background: url(./images/Frame\ 19.svg);
@@ -360,3 +365,11 @@ line-height: 67.2px;
   margin-top: 600px;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
