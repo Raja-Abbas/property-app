@@ -7,28 +7,7 @@ import search from "../../images/search-icon.svg";
 import Icon from "../../images/R Icon.svg"
 
 function Header() {
-  const menuItems = [
-    {
-      title: "Buyer",
-      items: ["Action", "Another action", "Something", "Separated link"],
-    },
-    {
-      title: "Seller",
-      items: ["Action", "Another action", "Something", "Separated link"],
-    },
-    {
-      title: "Investor",
-      items: ["Action", "Another action", "Something", "Separated link"],
-    },
-    {
-      title: "Property Management",
-      items: ["Action", "Another action", "Something", "Separated link"],
-    },
-    {
-      title: "About",
-      items: ["Action", "Another action", "Something", "Separated link"],
-    },
-  ];
+  
 
   return (
     <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">

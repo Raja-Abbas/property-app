@@ -19,6 +19,8 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
 @media(min-width:1000px){
 .body-part{
   width: 1000px;
@@ -320,6 +322,29 @@ line-height: 67.2px;
       width: 100%;
     }
 }
+.bg-frame{
+  background: url(./images/Frame\ 19.svg);
+  height: 500px;
+  background-size: contain;
+  margin: 30px 50px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 6%;
+  right: 6%;
+}
+
+@media(min-width:1200px){
+  .bg-frame{
+    width: 80%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
 
 
-
+.Margin{
+  margin-top: 600px;
+}

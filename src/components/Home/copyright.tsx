@@ -2,7 +2,7 @@ import React from 'react'
 
 function copyright() {
   return (
-    <div className=" row justify-content-center align-items-center mt-4 mb-4">
+    <div className=" row justify-content-center align-items-center mt-4 mb-4 col-12">
     <div className="col-xl-3 justify-content-center align-items-center d-flex">
         <div className="justify-content-center align-items-center d-flex flex-wrap">
             <p className="text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2 footer-link">Privacy Policy</p>
