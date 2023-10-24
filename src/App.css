@@ -19,6 +19,13 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.Contact{
+  background-image: url("./images/hero\ \(2\).svg");
+  height: 50vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 @media(min-width:1000px){

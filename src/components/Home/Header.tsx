@@ -40,7 +40,9 @@ function Header() {
               </a>
             </li>
             <button type="button" className="contact btn btn-outline-light">
-              Contact
+            <a className="nav-link active text-white" href="contact">
+                Contact
+              </a>
             </button>
             </div>
         </Navbar.Collapse>

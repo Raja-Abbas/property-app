@@ -6,7 +6,12 @@ import BuyerPage from "./components/Buyer/main";
 import SellerPage from "./components/Seller/Main";
 import InvestorPage from "./components/Investor/main";
 import PropertyManagementPage from "./components/PropertyManagement/Main";
+<<<<<<< HEAD
 import About from "./components/About/Main"
+=======
+import Contact from "./components/Contact/main"
+
+>>>>>>> 865aef1f29f43bb60227e33e72f29cc3108a8b23
 function App() {
   const currentPath = window.location.pathname;
 
@@ -22,7 +27,11 @@ function App() {
           <Route path="/seller" element={<SellerPage />} />
           <Route path="/investor" element={<InvestorPage />} />
           <Route path="/propertymanagement" element={<PropertyManagementPage />} />
+<<<<<<< HEAD
           <Route path="/about" element={<About />} />
+=======
+          <Route path="/contact" element={<Contact />} />
+>>>>>>> 865aef1f29f43bb60227e33e72f29cc3108a8b23
         </Routes>
       </div>
     </Router>
