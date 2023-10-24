@@ -6,6 +6,7 @@ import BuyerPage from "./components/Buyer/main";
 import SellerPage from "./components/Seller/Main";
 import InvestorPage from "./components/Investor/main";
 import PropertyManagementPage from "./components/PropertyManagement/Main";
+import Contact from "./components/Contact/main"
 
 function App() {
   const currentPath = window.location.pathname;
@@ -22,6 +23,7 @@ function App() {
           <Route path="/seller" element={<SellerPage />} />
           <Route path="/investor" element={<InvestorPage />} />
           <Route path="/propertymanagement" element={<PropertyManagementPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
