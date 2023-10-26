@@ -84,7 +84,7 @@ function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoPr
   return (
     <div className="d-flex justify-content-around mt-4 mb-4 flex-break">
       <img src={ImageLargeTwo} alt="" className='bg-opacity-50 col-xl-5 col-lg-7 justify-content-end align-items-center'/>
-    <div className="col-xl-5 col-lg-5 row gap-5">
+    <div className="col-xl-5 col-lg-4 row gap-5">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
             <div className="background7 bg-opacity-50 col-5 justify-content-end align-items-center">
