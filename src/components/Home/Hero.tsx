@@ -25,7 +25,7 @@ function Hero({ title, buttonText }: HeroProps) {
                <div className="position-absolute col-3 left-0 bottom-0">
                   <img src={ChatBubble} alt="" loading="lazy"/>
                 </div>
-                <div className="position-absolute px-1 py-1 bg-black rounded-1 col-12 d-flex w-25 bottom-0">
+                <div className="position-absolute px-1 py-1 bg-black rounded-1 chat-width d-flex bottom-0">
                     <p className="text-center text-light fs-6 fw-semibold font-family-Poppins col-11 m-0 px-3 py-2">How can I help you?</p>
                 </div>
                 </div>
