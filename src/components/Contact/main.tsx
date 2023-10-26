@@ -35,13 +35,13 @@ function main() {
         <div className="col-xl-10 row justify-content-center align-items-center">
           <div className="col-lg-6 justify-content-center align-items-center d-flex">
             <div className="col-12 row align-items-center">
-              <p className="text-center text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+              <p className="text-center text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 py-2">
                 Please fill out all the required fields *
               </p>
               <div className="col-12 row d-flex">
                 <div className="rounded-1 col-12 row d-flex">
                   <div className="pb-1 col-12 align-items-center d-flex">
-                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 py-2">
                       Full Name
                     </p>
                   </div>
@@ -53,14 +53,14 @@ function main() {
                     />
                   </div>
                   <div className="pt-1 col-12 align-items-center d-flex">
-                    <p className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 py-2">
                       We'll never share your email with anyone else.
                     </p>
                   </div>
                 </div>
                 <div className="rounded-1 col-12 row d-flex">
                   <div className="pb-1 col-12 align-items-center d-flex">
-                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 py-2">
                       Email Address
                     </p>
                   </div>
@@ -72,14 +72,14 @@ function main() {
                     />
                   </div>
                   <div className="pt-1 col-12 align-items-center d-flex">
-                    <p className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 py-2">
                       We'll never share your email with anyone else.
                     </p>
                   </div>
                 </div>
                 <div className="rounded-1 col-12 row d-flex">
                   <div className="pb-1 col-12 align-items-center d-flex">
-                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 py-2">
                       Phone Number
                     </p>
                   </div>
@@ -119,7 +119,7 @@ function main() {
                 </div>
                 <div className="rounded-1 col-6 row d-flex">
                   <div className="pb-1 col-12 align-items-center d-flex">
-                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+                    <p className="text-dark fs-6 fw-medium font-family-Poppins col-12 m-0 py-2">
                       Message
                     </p>
                   </div>

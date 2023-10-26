@@ -51,7 +51,7 @@ function Header() {
   return (
     <Navbar
       expand="lg"
-      className={`custom-navbar navbar-light ${
+      className={`custom-navbar navbar-dark ${
         isHeaderSticky ? "bg-black" : "bg-none"
       } d-flex justify-content-around align-items-center`}
     >
@@ -213,14 +213,14 @@ function Header() {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="search-bar w-100"
+                  className="search-bar w-100 bg-black border-1 border-white py-1 rounded-4 text-white"
                 />
               ) : (
                 <>
                   <img
                     src={search}
                     alt="search"
-                    className="w-100"
+                    className="w-100 imagebutton"
                     loading="lazy"
                     onClick={handleSearchIconClick}
                   />
