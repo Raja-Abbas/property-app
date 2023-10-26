@@ -39,7 +39,7 @@ function Hero({ title, buttonText }: HeroProps) {
             </div>
             <div className="row w-auto justify-content-center align-items-center">
               <div className="">
-                <div className="button-get px-1 py-1 rounded-5 border border-1 border-light justify-content-center align-items-center d-flex">
+                <div className="button-get px-1 py-1 rounded-5 btn btn-outline-dark border border-1 border-light justify-content-center align-items-center d-flex">
                   <div className="justify-content-center px-2 py-2 align-items-center">
                     <p className="button-start text-light fs-4 font-family-Poppins d-flex align-items-center text-center">
                       {buttonText}
@@ -52,12 +52,10 @@ function Hero({ title, buttonText }: HeroProps) {
           </div>
         </div>
       </div>
-      <div className="body-part">
       <Grid />
       <ImagesGrid/>
       <TextCard/>
       <ColorCard/>
-      </div>
       <Blog/>
       <Footer/>
       <Reviews/>

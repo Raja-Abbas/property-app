@@ -17,7 +17,7 @@ function Video() {
             <img src={Video1} className="img-fluid" alt="Responsive image" loading='lazy'/>
             </div>
         </div>
-        <div className="justify-content-between d-flex flex-wrap w-100">
+        <div className="justify-content-center d-flex flex-sm-nowrap gap-5">
             <div className="bg-opacity-50 justify-content-center align-items-center video">
                 <div className="position-relative shadow d-flex justify-content-center">
                 <img src={Video2} alt="..." className="img-fluid" loading='lazy'/>

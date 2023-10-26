@@ -1,15 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import hero from "../../images/logo.png";
 import search from "../../images/search-icon.svg";
+import DropdownArrow from "../../images/Dropdown Small Chevron down.svg"
 
 function Header() {
   
-
   return (
-    <Navbar expand="lg" className="custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center">
+    <Navbar expand="lg" className={`custom-navbar navbar-light bg-md-light d-flex jutify-content-around align-items-center sticky-header`}>
       <Container className="d-flex align-items-center">
       <a className="nav-link active text-white" href="/">
         <img src={hero} alt="" loading="lazy"/>
@@ -19,13 +18,13 @@ function Header() {
           <Nav className="custom-nav mx-auto">
           <div className="dropdown">
   <button
-    className="nav-link active text-white dropdown-toggle"
+    className="nav-link active text-white"
     type="button"
     id="dropdownMenuButton"
     data-mdb-toggle="dropdown"
     aria-expanded="false"
   >
-    Buyer
+    Buyer <img src={DropdownArrow} alt="" />
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
@@ -36,13 +35,13 @@ function Header() {
 </div>
 <div className="dropdown">
   <button
-    className="nav-link active text-white dropdown-toggle"
+    className="nav-link active text-white"
     type="button"
     id="dropdownMenuButton"
     data-mdb-toggle="dropdown"
     aria-expanded="false"
   >
-    Seller
+    Seller <img src={DropdownArrow} alt="" />
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
@@ -53,13 +52,13 @@ function Header() {
 </div>
 <div className="dropdown">
   <button
-    className="nav-link active text-white dropdown-toggle"
+    className="nav-link active text-white"
     type="button"
     id="dropdownMenuButton"
     data-mdb-toggle="dropdown"
     aria-expanded="false"
   >
-    Investor
+    Investor <img src={DropdownArrow} alt="" />
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
@@ -70,13 +69,13 @@ function Header() {
 </div>
 <div className="dropdown">
   <button
-    className="nav-link active text-white dropdown-toggle"
+    className="nav-link active text-white"
     type="button"
     id="dropdownMenuButton"
     data-mdb-toggle="dropdown"
     aria-expanded="false"
   >
-    Property Management
+    Property Management <img src={DropdownArrow} alt="" />
   </button>
   <ul className="dropdown-menu position-absolute" aria-labelledby="dropdownMenuButton">
     <li><a className="dropdown-item" href="/">Home</a></li>
@@ -96,7 +95,7 @@ function Header() {
                 Agents
               </a>
             </li>
-            <button type="button" className="contact btn btn-outline-light">
+            <button type="button" className="contact btn btn-outline-dark border-light">
             <a className="nav-link active text-white" href="contact">
                 Contact
               </a>

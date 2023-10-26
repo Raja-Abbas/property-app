@@ -6,11 +6,12 @@
     overflow-x: hidden;
 }
 .default{
-    background-image: url("./images/hero.svg");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("./images/hero.svg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .Investor{
   background-image: url("./images/hero\ \(1\).svg");
@@ -78,7 +79,11 @@ line-height: 67.2px;
     gap: 10px;
   }
   
-  
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust the z-index as needed */
+  }
   
   .button-start{
     margin: auto;
@@ -111,33 +116,29 @@ line-height: 67.2px;
 }
 .background1{
   background-image: url(./images/Frame\ 5.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 
 .background2{
   background-image: url(./images/Frame\ 6.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 .background3{
   background-image: url(./images/Frame\ 7.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 
 .background4{
   background-image: url(./images/Frame\ 7\ \(1\).svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 .background5{
   width: 500px;
@@ -146,33 +147,29 @@ line-height: 67.2px;
 
 .background6{
   background-image: url(./images/Frame\ 10.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 
 .background7{
   background-image: url(./images/Frame\ 11.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 .background8{
   background-image: url(./images/Frame\ 12.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 
 .background9{
   background-image: url(./images/Frame\ 13.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 200px;
-  min-height: 200px;
+  background-position: center;
 }
 .background5{
   width: 540px;
@@ -194,18 +191,20 @@ line-height: 67.2px;
 
 .bg-image{
   background-image: url(./images/bg-image.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 450px;
+  background-position: center;
   height: 400px;
+  width: 100%;
 }
 
 .bg-imageTwo{
   background-image: url(./images/bg-imageTwo.svg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 450px;
+  background-position: center;
   height: 400px;
+  width: 100%;
 }
 
 
@@ -242,7 +241,9 @@ line-height: 67.2px;
 }
 }
 .video{
-  width: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -347,14 +348,11 @@ line-height: 67.2px;
 .bg-frame{
   background: url(./images/Frame\ 19.svg);
   height: 500px;
-  background-size: contain;
-  margin: 30px 50px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  align-items: center;
-  position: absolute;
-  left: 6%;
-  right: 6%;
+  justify-content: center;
 }
 
 @media(min-width:1200px){
@@ -378,4 +376,13 @@ line-height: 67.2px;
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
+
+.text-guide{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
 }

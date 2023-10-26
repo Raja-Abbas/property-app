@@ -65,7 +65,7 @@ function blog() {
             <div className="py-1 row d-flex flex-column justify-content-center align-items-center d-flex">
                 <p className="text-center text-white fs-1 fw-semibold font-family-Poppins col-xl-6 m-0 px-3 py-2">Let’s Stay Connected</p>
                 <p className="text-center col-xl-7 m-0 px-3 py-2"><span className="text-light fs-4 fw-normal font-family-Poppins">Join our newsletter today & receive </span><span className="text-light fs-4 fw-semibold font-family-Poppins text-decoration-underline">monthly</span><span className="text-light fs-4 fw-normal font-family-Poppins"> updates!</span></p>
-                <div className="col-xl-5 row justify-content-center align-items-center gap-3">
+                <div className="row justify-content-center align-items-center gap-3">
                         <input type="text" className="px-4 py-1 bg-white col-6 rounded-5 row justify-content-center align-items-center d-flex input py-2" placeholder='Enter Your Email'/>
                     <div className="w-auto">
                         <div className="px-1 py-1 rounded-5 border border-1 border-light col-12 justify-content-center align-items-center d-flex">
