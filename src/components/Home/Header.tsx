@@ -50,11 +50,11 @@ function Header() {
 
   return (
     <Navbar
-      expand="lg"
-      className={`custom-navbar navbar-dark ${
-        isHeaderSticky ? "bg-black" : "bg-none"
-      } d-flex justify-content-around align-items-center`}
-    >
+    expand="lg"
+    className={`custom-navbar navbar-dark ${
+      isHeaderSticky ? "bg-black" : "bg-none"
+    } d-flex justify-content-around align-items-center`}
+  >
       <Container className="d-flex align-items-center">
         <a className="nav-link active text-white" href="/">
           <img src={hero} alt="" loading="lazy" />

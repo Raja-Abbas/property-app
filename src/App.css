@@ -393,3 +393,14 @@ line-height: 67.2px;
   overflow: hidden;
 }
 
+
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Add a class for the sticky background if needed */
+.bg-black {
+  background-color: black;
+}
