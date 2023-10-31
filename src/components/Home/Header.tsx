@@ -51,7 +51,7 @@ function Header() {
   return (
     <Navbar
     expand="lg"
-    className={`custom-navbar navbar-dark ${
+    className={`fixed-top custom-navbar navbar-dark ${
       isHeaderSticky ? "bg-black" : "bg-none"
     } d-flex justify-content-around align-items-center`}
   >
