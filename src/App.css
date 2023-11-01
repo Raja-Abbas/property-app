@@ -12,28 +12,34 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 40px;
 }
 .Investor{
   background-image: url("./images/hero\ \(1\).svg");
   height: 50vh;
-  width: 100%;
-  background-size: contain;
+  width: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
 }
 .Contact{
   background-image: url("./images/hero\ \(2\).svg");
   height: 50vh;
-  width: 100%;
-  background-size: contain;
+  width: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .About{
   background-image: url("./images/hero\ \(3\).svg");
   height: 50vh;
-  width: 100%;
-  background-size: contain;
+  width: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
 }
 @media(min-width:1000px){
 .body-part{
@@ -237,7 +243,7 @@ line-height: 67.2px;
 }
 @media(min-width:1200px){
   .card{
-  width: 18rem;
+  min-width: 18rem;
 }
 }
 .video{
@@ -344,6 +350,10 @@ line-height: 67.2px;
   background-color: black;
   z-index: 1000000;
 }
+.flex-breakresponsive{
+  flex-wrap: wrap;
+  gap: 20px;
+}
 }
 .bg-frame{
   background: url(./images/Frame\ 19.svg);
@@ -405,3 +415,17 @@ line-height: 67.2px;
   background-color: black;
 }
 
+.investor-button{
+  margin-top: -10px;
+  display: flex;
+}
+
+.margin-top{
+  margin-top: 30px;
+}
+
+#video{
+  position:fixed;
+  z-index: -1;
+  width: 100%;
+}

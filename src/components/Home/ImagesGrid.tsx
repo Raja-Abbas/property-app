@@ -82,7 +82,7 @@ interface ImageGridSectionTwoProps {
 
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
-    <div className="d-flex justify-content-around ms-4 mt-4 mb-4 flex-break">
+    <div className="d-flex justify-content-around mx-4 mt-4 mb-4 flex-break">
       <img src={ImageLargeTwo} alt="" className='bg-opacity-50 col-xl-6 col-lg-6 justify-content-end align-items-center'/>
     <div className="col-xl-5 col-lg-5 row gap-4">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">

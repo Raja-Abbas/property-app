@@ -22,7 +22,7 @@ function Hero({ title, buttonText }: HeroProps) {
     <div className="d-flex flex-column gap-4">
       <div className="default position-relative">
         <div className="d-none d-lg-flex">
-               <div className="position-absolute col-3 left-0 bottom-0">
+               <div className="position-absolute left-0 bottom-0 margin-top">
                   <img src={ChatBubble} alt="" loading="lazy"/>
                 </div>
                 <div className="position-absolute px-1 py-1 bg-black rounded-1 chat-width d-flex bottom-0">

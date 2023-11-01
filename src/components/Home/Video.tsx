@@ -14,7 +14,7 @@ function Video() {
 </div>    <div className="row align-items-center d-flex">
         <div className="px-1 py-5 bg-opacity-50 justify-content-center align-items-center d-flex">
             <div className="position-relative shadow mx-2">
-            <img src={Video1} className="img-fluid imagebutton" alt="Responsive image" loading='lazy'/>
+            <img src={Video1} className="img-fluid imagebutton" alt="Responsive Video1" loading='lazy'/>
             </div>
         </div>
         <div className="justify-content-center d-flex flex-sm-nowrap gap-5">
