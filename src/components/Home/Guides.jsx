@@ -2,8 +2,8 @@ import React from "react";
 
 function Guide(props) {
   return (
-    <div className="d-flex mt-4 mb-4 justify-content-between col-12 gap-lg-5 flex-breakresponsive">
-    <div className="mx-xl-4 py-1 bg-image bg-opacity-25 justify-content-end align-items-center position-relative">
+    <div className="ps-xl-4 d-flex mt-4 mb-4 justify-content-around col-12 col-lg-12 gap-lg-5 flex-breakresponsive">
+    <div className="mx-xl-4 py-1 bg-image mx-0 bg-opacity-25 justify-content-end align-items-center position-relative">
         <div className="text-guide">
             <p className="text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">Buyers</p>
             <div className="w-auto row justify-content-center align-items-center">

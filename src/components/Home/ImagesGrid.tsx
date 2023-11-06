@@ -15,7 +15,7 @@ interface TextSectionProps {
 function TextSection({ title, description, buttonText }: TextSectionProps) {
   return (
     <div className="row col-12 mx-2 justify-content-center align-items-center grid-width">
-      <div className="py-1 col-md-8 justify-content-center align-items-center">
+      <div className="py-1 col-md-6 justify-content-center align-items-center">
         <div className="row align-items-center d-flex">
           <p className="text-center text-dark fs-3 fw-light font-family-Poppins col-10 m-0 px-3 py-2">
             {title}
@@ -58,8 +58,8 @@ interface ImageGridSectionProps {
 
 function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
   return (
-<div className="d-flex justify-content-evenly mx-4 mb-4 mt-4 flex-break">
-    <div className="col-xl-5 col-lg-5 row gap-4">
+<div className="d-flex justify-content-center mx-4 mb-4 mt-4 flex-break">
+    <div className="col-xl-5 col-lg-6 row gap-4">
             <div className="background1 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
             <div className="background2 bg-opacity-50 col-5 justify-content-end align-items-center">
@@ -82,9 +82,9 @@ interface ImageGridSectionTwoProps {
 
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
-    <div className="d-flex justify-content-around mx-4 mt-4 mb-4 flex-break">
-      <img src={ImageLargeTwo} alt="" className='bg-opacity-50 col-xl-6 col-lg-6 justify-content-end align-items-center'/>
-    <div className="col-xl-5 col-lg-5 row gap-4">
+    <div className="d-flex justify-content-evenly gap-1 mx-3 mt-4 mb-4 flex-break col-12">
+      <img src={ImageLargeTwo} alt="" className='ps-xl-4 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
+    <div className="col-xl-5 col-lg-6 row gap-4">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
             <div className="background7 bg-opacity-50 col-5 justify-content-end align-items-center">

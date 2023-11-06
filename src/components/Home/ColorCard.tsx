@@ -2,7 +2,7 @@ import React from 'react'
 
 function ColorCard() {
   return (
-    <div className="px-1  row justify-content-center mx-3 flex-wrap my-4">
+    <div className="px-1  row justify-content-center mx-3 my-4">
     <div className="px-1 background-danger col-xl-6 justify-content-center align-items-center d-flex w-50 py-5 gap-2">
         <div className="py-1 justify-content-center align-items-center d-flex">
             <div className="row align-items-center">

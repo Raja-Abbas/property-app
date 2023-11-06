@@ -5,6 +5,9 @@
     width: 100%;
     overflow-x: hidden;
 }
+body{
+  overflow-x: hidden;
+}
 .default{
   background-image: url("./images/hero.svg");
   height: 100vh;
@@ -243,7 +246,7 @@ line-height: 67.2px;
 }
 @media(min-width:1200px){
   .card{
-  min-width: 18rem;
+  width:22rem
 }
 }
 .video{
@@ -354,6 +357,10 @@ line-height: 67.2px;
   flex-wrap: wrap;
   gap: 20px;
 }
+.textweb{
+  display: flex;
+  flex-direction: column;
+}
 }
 .bg-frame{
   background: url(./images/Frame\ 19.svg);
@@ -381,6 +388,9 @@ line-height: 67.2px;
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+}
+.hover-color:hover{
+  color: orange;
 }
 
 .dropdown>.dropdown-toggle:active {

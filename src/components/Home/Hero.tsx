@@ -30,7 +30,7 @@ function Hero({ title, buttonText }: HeroProps) {
                 </div>
                 </div>
         <HeaderNav />
-        <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-4 bottom-0 start-0 end-0">
+        <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-5 bottom-0 start-0 end-0">
           <div className="col-xl-6 row justify-content-center align-items-center d-flex">
             <div className="col-12 row justify-content-center align-items-center d-flex">
               <p className="text text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">
@@ -39,9 +39,9 @@ function Hero({ title, buttonText }: HeroProps) {
             </div>
             <div className="row w-auto justify-content-center align-items-center">
               <div className="">
-                <div className="button-get px-1 py-1 rounded-5 btn btn-outline-dark border border-1 border-light justify-content-center align-items-center d-flex">
-                  <div className="justify-content-center px-2 py-2 align-items-center">
-                    <p className="button-start text-light fs-4 font-family-Poppins d-flex align-items-center text-center">
+                <div className="button-get px-2 rounded-5 btn btn-outline-dark border border-1 border-light justify-content-center align-items-center d-flex">
+                  <div className="justify-content-center px-2 align-items-center">
+                    <p className="button-start text-light fs-5 font-family-Poppins d-flex align-items-center text-center">
                       {buttonText}
                     </p>
                   </div>

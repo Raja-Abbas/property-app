@@ -18,7 +18,7 @@ function main() {
     <div>
       <div className="Investor position-relative">
         <Header />
-        <div className=" ms-2 px-1 py-1 justify-content-end position-absolute bottom-0 investor-button d-flex gap-2">
+        <div className=" ms-2 d-flex px-1 py-1 justify-content-end position-absolute bottom-0 investor-button d-flex gap-2">
           <div className="row justify-content-center align-items-center">
             <div className="col-8 row justify-content-end align-items-center">
               <p className="text-center text-white fs-1 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
