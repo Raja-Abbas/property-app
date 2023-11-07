@@ -20,9 +20,9 @@ interface HeroProps {
 function Hero({ title, buttonText }: HeroProps) {
   return (
     <div className="d-flex flex-column gap-4">
-      <div className="default">
-        <div className="d-none d-lg-flex position-absolute left-0 bottom-0 margin-top">
-               <div className="">
+      <div className="default position-relative">
+        <div className="d-none d-lg-flex">
+               <div className="d-flex flex-column position-absolute left-0 bottom-0">
                   <img src={ChatBubble} alt="" loading="lazy"/>
                 </div>
                 <div className="position-absolute px-1 py-1 bg-black rounded-1 chat-width d-flex bottom-0">
@@ -33,7 +33,7 @@ function Hero({ title, buttonText }: HeroProps) {
         <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-5 bottom-0 start-0 end-0">
           <div className="col-xl-6 row justify-content-center align-items-center d-flex">
             <div className="col-12 row justify-content-center align-items-center d-flex">
-              <p className="text-center text-white fs-1 font-family-Poppins m-0 px-3 py-2 text-header">
+              <p className="text text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">
                 {title}
               </p>
             </div>

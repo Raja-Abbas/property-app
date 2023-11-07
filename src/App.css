@@ -10,12 +10,12 @@ body{
 }
 .default{
   background-image: url("./images/hero.svg");
-  height: 100vh;
+  height: 65vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 40px;
+  margin-bottom: -40px;
 }
 .Investor{
   background-image: url("./images/hero\ \(1\).svg");
@@ -389,7 +389,7 @@ line-height: 67.2px;
 .text-header{
   font-family: 'Poppins', sans-serif;
   line-height: 67.2px;
-  font-weight:60;
+  font-weight: 60;
 }
 .Margin{
   margin-top: 600px;
@@ -439,9 +439,7 @@ line-height: 67.2px;
   display: flex;
 }
 
-.margin-top{
-  margin-top: 30px;
-}
+
 
 #video{
   position:fixed;
@@ -452,3 +450,9 @@ line-height: 67.2px;
 .font-header{
   font-size: 56px;
 }
+
+.width-arrow{
+  width: 60px;
+  margin: auto;
+}
+
