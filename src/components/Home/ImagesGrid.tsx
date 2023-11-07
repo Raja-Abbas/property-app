@@ -14,18 +14,18 @@ interface TextSectionProps {
 
 function TextSection({ title, description, buttonText }: TextSectionProps) {
   return (
-    <div className="row col-12 mx-2 justify-content-center align-items-center grid-width">
-      <div className="py-1 col-md-6 justify-content-center align-items-center">
+    <div className="row col-12 justify-content-center align-items-center grid-width">
+      <div className="py-1 col-7 justify-content-center align-items-center">
         <div className="row align-items-center d-flex">
-          <p className="text-center text-dark fs-3 fw-light font-family-Poppins col-10 m-0 px-3 py-2">
+          <p className="text-center text-dark fs-3 fw-light font-family-Poppins m-0 px-3 py-2">
             {title}
           </p>
-          <p className="text-center text-dark fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 w-75">
+          <p className="text-center text-dark fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">
             {description}
           </p>
         </div>
       </div>
-      <div className="col-md-2 row justify-content-center align-items-center d-flex">
+      <div className="col-2 row justify-content-center align-items-center d-flex">
         <div className="">
           <div className="px-1 py-1 bg-danger rounded-5 border border-1 border-danger col-12 justify-content-center align-items-center d-flex">
             <div className="justify-content-center align-items-center button-chat">
@@ -82,7 +82,7 @@ interface ImageGridSectionTwoProps {
 
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
-    <div className="d-flex justify-content-evenly gap-1 mx-3 mt-4 mb-4 flex-break col-12">
+    <div className="d-flex justify-content-evenly gap-1 mx-md-4 mx-lg-3 mt-4 mb-4 flex-break col-lg-12">
       <img src={ImageLargeTwo} alt="" className='ps-xl-4 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
     <div className="col-xl-5 col-lg-6 row gap-4">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">

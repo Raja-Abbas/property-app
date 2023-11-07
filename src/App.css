@@ -361,6 +361,11 @@ line-height: 67.2px;
   display: flex;
   flex-direction: column;
 }
+.grid-width{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 }
 .bg-frame{
   background: url(./images/Frame\ 19.svg);

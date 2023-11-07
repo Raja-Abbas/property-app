@@ -2,8 +2,8 @@ import React from 'react'
 
 function ColorCard() {
   return (
-    <div className="px-1  row justify-content-center mx-3 my-4">
-    <div className="px-1 background-danger col-xl-6 justify-content-center align-items-center d-flex w-50 py-5 gap-2">
+    <div className="px-1 justify-content-center mx-4 my-4 d-lg-flex">
+    <div className="px-1 background-danger col-xl-6 justify-content-center align-items-center d-flex w-md-50 py-5 gap-2">
         <div className="py-1 justify-content-center align-items-center d-flex">
             <div className="row align-items-center">
                 <p className="text-center m-0 px-3 py-2"><span className="text-light fs-6 fw-light font-family-Poppins">Our </span><span className="text-light fs-6 fw-semibold font-family-Poppins">ipsum</span><span className="text-light fs-6 fw-light font-family-Poppins"> dolor</span></p>
@@ -23,7 +23,7 @@ function ColorCard() {
             </div>
         </div>
     </div>
-    <div className="px-1 bg-dark col-xl-6 justify-content-center align-items-center d-flex w-50">
+    <div className="px-1 bg-dark col-xl-6 justify-content-center align-items-center d-flex w-md-50">
         <div className="py-1 justify-content-center align-items-center d-flex">
             <div className="row align-items-center">
                 <p className="text-center m-0 px-3 py-2"><span className="text-light fs-6 fw-light font-family-Poppins">Our </span><span className="text-light fs-6 fw-semibold font-family-Poppins">ipsum</span><span className="text-light fs-6 fw-light font-family-Poppins"> dolor taxes</span></p>

@@ -3,7 +3,7 @@ import ImageWeb from "../../images/logo.svg"
 
 function Grid() {
   return (
-    <div className="d-flex justify-content-center grid flex-wrap">
+    <div className="d-flex justify-content-center w-100 grid flex-wrap">
       <div className="position-relative  row imageweb">
         <img src={ImageWeb} alt="ImageWeb" loading='lazy'/>
       </div>

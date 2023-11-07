@@ -4,7 +4,7 @@ import ChevronLeft from "../../images/Chevron left.svg"
 
 function reviews() {
   return (
-    <div className="py-1 bg-light py-4 d-flex justify-content-center align-items-center mt-5 mb-5 flex">
+    <div className="py-1 bg-light py-4 d-flex justify-content-center align-items-center mx-4 mt-5 mb-5 flex">
     <div className="d-flex justify-content-center align-items-center d-flex">
         <div className="position-relative col-1">
             <img src={ChevronLeft} alt="" className='imagebutton' loading='lazy'/>
