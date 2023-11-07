@@ -68,7 +68,7 @@ function blog() {
                 <div className="row justify-content-center align-items-center gap-3">
                         <input type="text" className="px-4 py-1 bg-white col-6 rounded-5 row justify-content-center align-items-center d-flex input py-2" placeholder='Enter Your Email'/>
                     <div className="w-auto">
-                        <div className="px-1 py-1 rounded-5 border border-1 border-light col-12 justify-content-center align-items-center d-flex">
+                        <div className="btn btn-outline-dark px-1 py-1 rounded-5 border border-1 border-light col-12 justify-content-center align-items-center d-flex">
                             <div className="justify-content-center align-items-center w-auto">
                                 <p className="text-center text-light fs-6 fw-medium font-family-Poppins m-0 px-3 py-2 imagebutton">Sign Up</p>
                             </div>

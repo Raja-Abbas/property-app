@@ -17,9 +17,29 @@ function Main() {
     <div>
       <div className='About'>
         <Header />
+        <div className="z-1 ms-4 d-lg-flex px-1 py-1 justify-content-end position-absolute bottom-0 mb-3 align-items-center">
+          <div className="d-lg-flex justify-content-center align-items-center gap-4">
+            <div className="row justify-content-end align-items-center">
+              <p className="text-center text-white font-header fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+                About Us
+              </p>
+            </div>
+            <div className="justify-content-center align-items-center d-flex mt-3">
+              <div className="">
+                <div className="px-2 py-1 w-auto imagebutton rounded-5 border border-1 border-light btn btn-outline-dark justify-content-center align-items-center d-flex">
+                  <div className="justify-content-center align-items-center">
+                    <p className="text-center text-light fs-8 fw-normal font-family-Poppins m-0 px-1">
+                      Get Started
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-      <div className="mx-4 row justify-content-center align-items-center">
+      <div className='mx-4'>
+      <div className="mt-4 mx-4 row justify-content-center align-items-center">
     <div className="col-lg-6 row align-items-center">
         <p className="text-center text-danger fs-1 fw-light font-family-Poppins col-12 m-0 px-3 py-2">MIKE KOEN</p>
         <p className="text-center col-12 m-0 px-3 py-2"><span className="text-dark fs-4 fw-light font-family-Poppins"><br/>“Real Estate is more than my passion. <br/>It’s my </span><span className="text-dark fs-4 fw-bold font-family-Poppins">purpose</span><span className="text-dark fs-4 fw-light font-family-Poppins">.”</span></p>

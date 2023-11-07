@@ -23,7 +23,7 @@ function reviews() {
             <textarea className="text-secondary fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-4" placeholder='Leave a review...'/>
         </div>
         <div className="d-flex w-100 justify-content-end">
-            <div className="px-1 py-1 rounded-5 border border-1 border-dark justify-content-center align-items-center d-flex justify-content-end">
+            <div className="btn btn-outline-danger px-1 py-1 rounded-5 border border-1 border-dark justify-content-center align-items-center d-flex justify-content-end">
                 <div className="justify-content-center align-items-center">
                     <p className="text-center text-dark fs-6 fw-medium font-family-Poppins m-0 row col-8 px-3 py-2 imagebutton">Post</p>
                 </div>

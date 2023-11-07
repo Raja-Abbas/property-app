@@ -19,7 +19,7 @@ body{
 }
 .Investor{
   background-image: url("./images/hero\ \(1\).svg");
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body{
 }
 .Contact{
   background-image: url("./images/hero\ \(2\).svg");
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body{
 
 .About{
   background-image: url("./images/hero\ \(3\).svg");
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -386,14 +386,18 @@ line-height: 67.2px;
   }
 }
 
-
+.text-header{
+  font-family: 'Poppins', sans-serif;
+  line-height: 67.2px;
+  font-weight:60;
+}
 .Margin{
   margin-top: 600px;
 }
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  background: #547581;
+  background: white;
 }
 .hover-color:hover{
   color: orange;
@@ -443,4 +447,8 @@ line-height: 67.2px;
   position:fixed;
   z-index: -1;
   width: 100%;
+}
+
+.font-header{
+  font-size: 56px;
 }

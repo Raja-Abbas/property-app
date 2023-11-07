@@ -8,7 +8,7 @@ function Guide(props) {
             <p className="text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">Buyers</p>
             <div className="w-auto row justify-content-center align-items-center">
                 <div className="w-auto imagebutton">
-                    <div className="px-1 py-1 bg-light rounded-5 col-12 justify-content-center align-items-center d-flex">
+                    <div className="btn btn-light btn-outline-dark px-1 py-1 border-0 rounded-5 col-12 justify-content-center align-items-center d-flex">
                         <div className="justify-content-center align-items-center">
                             <p className="text-center text-danger fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">Buyer’s  Guide</p>
                         </div>
@@ -22,7 +22,7 @@ function Guide(props) {
             <p className="text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">Sellers</p>
             <div className="w-auto row justify-content-center align-items-center">
                 <div className="w-auto imagebutton">
-                    <div className="px-1 py-1 bg-light  rounded-5 col-12 justify-content-center align-items-center d-flex">
+                    <div className="btn btn-light btn-outline-dark px-1 py-1 border-0  rounded-5 col-12 justify-content-center align-items-center d-flex">
                         <div className="justify-content-center align-items-center">
                             <p className="text-center text-danger fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">Seller’s  Guide</p>
                         </div>

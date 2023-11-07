@@ -18,18 +18,18 @@ function main() {
     <div>
       <div className="Investor position-relative">
         <Header />
-        <div className=" ms-2 d-flex px-1 py-1 justify-content-end position-absolute bottom-0 investor-button d-flex gap-2">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-8 row justify-content-end align-items-center">
-              <p className="text-center text-white fs-1 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+        <div className=" ms-4 d-lg-flex px-1 py-1 justify-content-end position-absolute bottom-0 mb-3 align-items-center">
+          <div className="d-lg-flex justify-content-center align-items-center gap-4">
+            <div className="row justify-content-end align-items-center">
+              <p className="text-center text-white font-header fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
                 Investors
               </p>
             </div>
-            <div className="row justify-content-center align-items-center d-flex">
+            <div className="justify-content-center align-items-center d-flex mt-3">
               <div className="">
-                <div className="px-1 py-1 w-auto imagebutton rounded-5 border border-1 border-light btn btn-outline-dark justify-content-center align-items-center d-flex">
+                <div className="px-2 py-1 w-auto imagebutton rounded-5 border border-1 border-light btn btn-outline-dark justify-content-center align-items-center d-flex">
                   <div className="justify-content-center align-items-center">
-                    <p className="text-center text-light fs-6 fw-normal font-family-Poppins m-0 px-3 py-2">
+                    <p className="text-center text-light fs-8 fw-normal font-family-Poppins m-0 px-1">
                       Get Started
                     </p>
                   </div>
