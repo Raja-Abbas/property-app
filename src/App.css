@@ -60,7 +60,7 @@ font-weight: 250;
 line-height: 67.2px;
 }
 .text{
-    font-weight: 50;
+    font-weight: 10;
 }
 .custom-nav-dropdown .nav-link {
     color: white;
@@ -398,6 +398,13 @@ line-height: 67.2px;
 .dropdown:hover>.dropdown-menu {
   display: block;
   background: white;
+}
+.dropdown>.dropdown-menu li a:hover{
+  border-bottom: 1px solid black;
+  border-top:1px solid black;
+  color: white;
+  background: black;
+  transition: all 0.3s ease-in-out;
 }
 .hover-color:hover{
   color: orange;

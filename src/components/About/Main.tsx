@@ -15,9 +15,9 @@ import Copyright from "../Home/copyright"
 function Main() {
   return (
     <div>
-      <div className='About'>
+      <div className='About position-relative'>
         <Header />
-        <div className="z-1 ms-4 d-lg-flex px-1 py-1 justify-content-end position-absolute bottom-0 mb-3 align-items-center">
+        <div className="ms-4 d-lg-flex px-1 py-1 justify-content-end position-absolute bottom-0 mb-3 align-items-center">
           <div className="d-lg-flex justify-content-center align-items-center gap-4">
             <div className="row justify-content-end align-items-center">
               <p className="text-center text-white font-header fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
