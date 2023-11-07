@@ -25,9 +25,9 @@ function TextSection({ title, description, buttonText }: TextSectionProps) {
           </p>
         </div>
       </div>
-      <div className="col-2 row justify-content-center align-items-center d-flex">
+      <div className="col-lg-2 w-md-auto row justify-content-center align-items-center d-flex">
         <div className="">
-          <div className="px-1 py-1 bg-danger rounded-5 border border-1 border-danger col-12 justify-content-center align-items-center d-flex">
+          <div className="px-1 py-1 bg-danger rounded-5 border border-1 border-danger justify-content-center align-items-center d-flex">
             <div className="justify-content-center align-items-center button-chat">
               <p className="text-center text-white fs-6 fw-normal font-family-Poppins w-auto m-0 py-2">
                 {buttonText}
@@ -83,7 +83,7 @@ interface ImageGridSectionTwoProps {
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
     <div className="d-flex justify-content-evenly gap-1 mx-md-4 mx-lg-3 mt-4 mb-4 flex-break col-lg-12">
-      <img src={ImageLargeTwo} alt="" className='ps-xl-4 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
+      <img src={ImageLargeTwo} alt="" className='ps-xl-4 mx-4 mx-lg-0 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
     <div className="col-xl-5 col-lg-6 row gap-4">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
