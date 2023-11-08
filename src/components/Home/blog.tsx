@@ -6,10 +6,10 @@ import Image4 from "../../images/Image4.svg"
 
 function blog() {
   return (
-    <div className="row align-items-center justify-content-center mx-4">
+    <div className="row align-items-center justify-content-center mx-1">
     <div className="py-1 row justify-content-center align-items-center d-flex gap-4">
         <p className="text-danger text-center fs-1 fw-light font-family-Poppins m-0 py-2">Featured Articles</p>
-        <div className="ms-3 d-flex justify-content-center flex mb-4">
+        <div className="ms-4 d-flex justify-content-center flex mb-4">
             <div className="blog-responsive">
                 <div className="bg-white col-12 row align-items-center justify-content-center d-flex blog">
                     <img className="position-relative col-12" src={Image1} alt="" loading='lazy'/>

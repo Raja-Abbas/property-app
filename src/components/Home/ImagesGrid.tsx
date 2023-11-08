@@ -59,7 +59,7 @@ interface ImageGridSectionProps {
 function ImageGridSection({ backgrounds, imageSource }: ImageGridSectionProps) {
   return (
 <div className="d-flex justify-content-center mx-4 mb-4 mt-4 flex-break">
-    <div className="col-xl-5 col-lg-6 row gap-4">
+    <div className="col-xl-5 col-lg-6 row gap-4 ps-lg-2">
             <div className="background1 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
             <div className="background2 bg-opacity-50 col-5 justify-content-end align-items-center">
@@ -83,8 +83,8 @@ interface ImageGridSectionTwoProps {
 function ImageGridSectionTwo({ backgrounds, imageSource }: ImageGridSectionTwoProps) {
   return (
     <div className="d-flex justify-content-evenly gap-1 mx-md-4 mx-lg-3 mt-4 mb-4 flex-break col-lg-12">
-      <img src={ImageLargeTwo} alt="" className='ps-xl-4 mx-4 mx-lg-0 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
-    <div className="col-xl-5 col-lg-6 row gap-4">
+      <img src={ImageLargeTwo} alt="" className='ps-xl-4 ps-lg-2 mx-4 mx-lg-0 bg-opacity-50 col-xl-6 col-lg-6 pe-lg-4 justify-content-end align-items-center'/>
+    <div className="col-xl-5 col-lg-6 row gap-4 ps-lg-2">
             <div className="background6 bg-opacity-50 col-5 justify-content-end align-items-center">
             </div>
             <div className="background7 bg-opacity-50 col-5 justify-content-end align-items-center">

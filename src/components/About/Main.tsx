@@ -60,8 +60,8 @@ function Main() {
     <div className="col-lg-4 align-items-center">
         <p className="text-dark fs-5 fw-normal font-family-Poppins col-12 m-0 px-1 py-2">Serving as a state building inspector for over 10 years, he holds vast knowledge in property management, subdivision protocols, and has extensive experience collaborating with DEP/municipalities. <br/><br/>In addition, Mike works with an extensive team of lenders, surveyors, engineers, and attorneys who will guide you through the process.</p>
     </div>
-    <img className="px-1 py-1 col-lg-4 col-md-4" src={Image3} />
-    <img className="px-1 py-1 col-lg-4 col-md-4" src={Image4} />
+    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image3} />
+    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image4} />
 </div>
       </div>
       <div>

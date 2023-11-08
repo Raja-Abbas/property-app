@@ -6,7 +6,7 @@ import Video3 from "../../images/Video3.svg"
 function Video() {
   return (
     <div>
-      <div className="mx-4 mx-xl-0 px-1 py-1  row align-items-center justify-content-center">
+      <div className="mx-2 mx-xl-0 px-1 py-1  row align-items-center justify-content-center">
       <div id="component" className="container-fluid py-3 d-flex justify-content-center">
     <p className="text-center text-black col-6 opacity-50 fs-1 font-family-Poppins  m-0 px-3 py-2">
     Explore The Beautiful Jersey Shore

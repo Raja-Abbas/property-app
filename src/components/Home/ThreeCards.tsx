@@ -5,7 +5,7 @@ import CardImage3 from "../../images/card-image3.svg"
 
 function ThreeCards() {
   return (
-    <div className='d-flex justify-content-around m-3 mb-5 flex-wrap mx-xl-5'>
+    <div className='d-flex justify-content-around mb-5 flex-wrap mx-xl-5'>
     <div className="card card-responsive">
     <div className="card-body">
       <h5 className="card-title"><p className="text-center text-danger fs-5 fw-normal font-family-Poppins m-0 px-3 py-2">Bare Land Development</p></h5>

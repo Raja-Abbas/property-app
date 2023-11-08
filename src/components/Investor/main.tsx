@@ -55,7 +55,7 @@ function main() {
           <div className="mt-5 mx-2 row justify-content-center align-items-center">
             <img className="px-3 py-1 col-lg-6" src={Image2} alt="i" />
             <div className="col-lg-6 row align-items-center">
-              <p className="text-center text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
+              <p className="text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
                 Taking Advantage of Charitable Real Estate Donation
               </p>
               <p className="text-dark fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">
@@ -174,7 +174,7 @@ function main() {
                     <div className="d-flex justify-content-center align-items-center">
                       <div className="button-chat row justify-content-center align-items-center d-flex">
                         <div className="">
-                          <div className="px-1 py-1 bg-light col-12 rounded-5 justify-content-center align-items-center d-flex">
+                          <div className="btn btn-light btn-outline-dark px-1 py-1 border-0 col-12 rounded-5 justify-content-center align-items-center d-flex">
                             <div className="justify-content-center align-items-center">
                               <p className="text-center text-danger fs-6 fw-medium font-family-Poppins text-decoration-underline w-auto m-0 px-3 py-2">
                                 Explore The Tax Benefits
