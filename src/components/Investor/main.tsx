@@ -78,11 +78,11 @@ function main() {
                   capital gains over the course of 5 years.
                 </p>
               </div>
-              <img className="px-3 py-1 col-lg-6" src={Image3} />
+              <img className="px-3 py-1 col-lg-6" src={Image3} alt=""/>
             </div>
             <div>
               <div className="mt-5 mx-2 row justify-content-center align-items-center">
-                <img className="px-3 py-1 col-lg-6" src={Image4} />
+                <img className="px-3 py-1 col-lg-6" src={Image4} alt=""/>
                 <div className="col-lg-6 row align-items-center">
                   <p className="text-danger fs-4 fw-medium font-family-Poppins col-12 m-0 px-3 py-2">
                     What Types of Properties Qualify?
@@ -135,7 +135,7 @@ function main() {
                           Full/Standard.
                         </span>
                       </p>
-                      <img className="px-1 py-1 col-12" src={Image5} />
+                      <img className="px-1 py-1 col-12" src={Image5} alt=""/>
                       <p className="text-dark fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2 mb-4">
                         FHA 203k Full/Standard is designed to provide financing
                         for modernization of older properties, covering
@@ -153,7 +153,7 @@ function main() {
                           Limited.
                         </span>
                       </p>
-                      <img className="px-1 py-1 col-12" src={Image6} />
+                      <img className="px-1 py-1 col-12" src={Image6} alt=""/>
                       <p className="text-dark fs-6 fw-normal font-family-Poppins col-12 m-0 px-3 py-2">
                         For smaller projects that do not require major
                         renovation, a FHA 203K limited loan is designed for just

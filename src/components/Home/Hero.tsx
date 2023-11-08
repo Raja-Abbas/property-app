@@ -33,7 +33,7 @@ function Hero({ title, buttonText }: HeroProps) {
         <div className="d-flex justify-content-center align-items-center m-auto position-absolute mb-5 bottom-0 start-0 end-0">
           <div className="col-xl-6 row justify-content-center align-items-center d-flex">
             <div className="col-12 row justify-content-center align-items-center d-flex">
-              <p className="text-head text-center text-white fs-1 font-family-Poppins col-12 m-0 px-3 py-2">
+              <p className="text-head text-center text-white font-family-Poppins fs-1 font-family-Poppins col-12 m-0 px-3 py-2">
                 {title}
               </p>
             </div>

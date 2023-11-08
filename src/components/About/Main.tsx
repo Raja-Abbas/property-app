@@ -38,20 +38,20 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className='mx-4'>
+      <div className='mx-0'>
       <div className="mt-4 mx-4 row justify-content-center align-items-center">
     <div className="col-lg-6 row align-items-center">
         <p className="text-center text-danger fs-1 fw-light font-family-Poppins col-12 m-0 px-3 py-2">MIKE KOEN</p>
         <p className="text-center col-12 m-0 px-3 py-2"><span className="text-dark fs-4 fw-light font-family-Poppins"><br/>“Real Estate is more than my passion. <br/>It’s my </span><span className="text-dark fs-4 fw-bold font-family-Poppins">purpose</span><span className="text-dark fs-4 fw-light font-family-Poppins">.”</span></p>
     </div>
-    <img className="px-1 py-1 col-lg-6" src={Image1} />
+    <img className="px-1 py-1 col-lg-6" src={Image1} alt=""/>
 </div>
       </div>
       <div>
       <div className="mx-4 mt-5 row justify-content-center">
     <p className="text-danger fs-3 fw-medium font-family-Poppins col-lg-12 m-0 px-3 py-2">Experience</p>
     <p className="text-dark fs-5 fw-normal font-family-Poppins col-lg-12 m-0 px-3 py-2">With over 25+ years of experience in residential and commercial real estate, Mike Koen has helped hundreds of New Jersey residents secure properties that build lasting memories and financial independence. He takes pride in working with his clients to navigate the complex process of buying, selling, building, and investing.</p>
-    <img className="py-1 col-lg-12" src={Image2} />
+    <img className="py-1 col-lg-12" src={Image2} alt=""/>
     <p className="text-dark fs-5 fw-normal font-family-Poppins col-lg-12 m-0 px-3 py-2">Mike is more than a real estate agent. He is also a Licensed Builder and has served as a Home Inspector for the State of NJ. After years in the field, he uses his experience to help owners and investors navigate the complexities of NJ real estate and lending.</p>
 </div>
       </div>
@@ -60,8 +60,8 @@ function Main() {
     <div className="col-lg-4 align-items-center">
         <p className="text-dark fs-5 fw-normal font-family-Poppins col-12 m-0 px-1 py-2">Serving as a state building inspector for over 10 years, he holds vast knowledge in property management, subdivision protocols, and has extensive experience collaborating with DEP/municipalities. <br/><br/>In addition, Mike works with an extensive team of lenders, surveyors, engineers, and attorneys who will guide you through the process.</p>
     </div>
-    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image3} />
-    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image4} />
+    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image3} alt=""/>
+    <img className="px-2 py-1 col-lg-4 col-md-4" src={Image4} alt=""/>
 </div>
       </div>
       <div>

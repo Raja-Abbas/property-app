@@ -65,7 +65,8 @@ font-weight: 250;
 line-height: 67.2px;
 }
 .text-head{
-    font-weight: 70;
+    font-weight:100;
+    font-family: 'Poppins',sans-serif;
 }
 .custom-nav-dropdown .nav-link {
     color: white;
