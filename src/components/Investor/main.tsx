@@ -125,7 +125,7 @@ function main() {
                   <p className="text-center text-dark fs-4 fw-medium font-family-Poppins  m-0 px-3 py-2">
                     Types of FHA Loans
                   </p>
-                  <div className="col-lg-12 gap-5 row justify-content-center">
+                  <div className="col-lg-12 row justify-content-around mb-4">
                     <div className="col-lg-5 row align-items-center">
                       <p className="col-12 m-0 px-3 py-2">
                         <span className="text-danger fs-4 fw-medium font-family-Poppins">
