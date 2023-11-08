@@ -61,8 +61,8 @@ font-style: normal;
 font-weight: 250;
 line-height: 67.2px;
 }
-.text{
-    font-weight: 10;
+.text-head{
+    font-weight: 70;
 }
 .custom-nav-dropdown .nav-link {
     color: white;
@@ -402,7 +402,7 @@ line-height: 67.2px;
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  background: white;
+  background: rgb(224, 224, 224);
 }
 .dropdown>.dropdown-menu li a:hover{
   border-bottom: 1px solid black;

@@ -27,7 +27,7 @@ function TextSection({ title, description, buttonText }: TextSectionProps) {
       </div>
       <div className="col-lg-2 w-md-auto row justify-content-center align-items-center d-flex">
         <div className="">
-          <div className="px-1 py-1 bg-danger rounded-5 border border-1 border-danger justify-content-center align-items-center d-flex">
+          <div className="btn btn-danger btn-outline-dark px-1 py-1 rounded-5 border border-1 border-danger justify-content-center align-items-center d-flex">
             <div className="justify-content-center align-items-center button-chat">
               <p className="text-center text-white fs-6 fw-normal font-family-Poppins w-auto m-0 py-2">
                 {buttonText}
